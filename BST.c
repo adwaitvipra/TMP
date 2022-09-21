@@ -152,11 +152,51 @@ void postorder(node *root)
 // INSERTION
 //========================================================================================================================================================================
 
+node *rInsert(node *tree, int val)
+{
+	if(!tree)
+	{
+		node *newNode = getNode(val);
+		return newNode;
+	}
+	else
+	{
+		if(tree->data < val)
+			tree->right = rInsert(tree->right, val);
+		else
+			tree->left = rInsert(tree->left, val);
+	}
+}
 
+void insert(bst *tree, int val)
+{
+	if(isFull() || search(*tree, val))
+		return ;
+	tree->root = rInsert(tree->root, val);
+	tree->size++;
+
+	return ;
+}
 //========================================================================================================================================================================
 // SEARCH
 //========================================================================================================================================================================
 
+node *rSearch(node *tree, int val)
+{
+	if(!tree || tree->data == val)
+		return tree;
+	if(tree->data < val)
+		rSearch(tree->right, val);
+	else
+		rSearch(tree->left, val);
+}
+
+node *search(bst tree, int val)
+{
+	if(isEmpty(tree))
+		return NULL;
+	return rSearch(tree.root, val);
+}
 
 //========================================================================================================================================================================
 // DELETE
@@ -214,11 +254,12 @@ void rDeleteTree(node *root)
 
 int main(void)
 {
-
 	bst *p=NULL;
 	p = init();
 	for(int i=0; i<100; i++)
 		insert(p,rand() % 1000);
+	printf("%d = size\n",p->size);
+	printf("%d %d\n", p->root->left->data, p->root->right->data);
 	preOrder(*p);
 	printf("\n\n");
 	inOrder(*p);

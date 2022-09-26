@@ -9,6 +9,9 @@
 #include<limits.h>
 #include<time.h>
 
+#define MAX(a, b) (a > b ? a : b)
+#define MIN(a, b) (a < b ? a : b)
+
 typedef struct node{
 	int data;
 	struct node *left, *right;
@@ -68,6 +71,15 @@ node *rSearch(node *, int);
 
 void deleteTree(bst *);
 void rDeleteTree(node *);
+
+int getHeight(bst );
+int rGetHeight(node *);
+int getCount(bst );
+int rGetCount(node *);
+int findMin(bst );
+int rFindMin(node *);
+int findMax(bst );
+int rFindMax(node *);
 
 //========================================================================================================================================================================
 //	DEFINATIONS
@@ -422,10 +434,73 @@ void rDeleteTree(node *root)
 }
 
 //========================================================================================================================================================================
-//
+// UTILITY
 //========================================================================================================================================================================
 
+int getHeight(bst tree)
+{
+	if(isEmpty(tree))
+		return -1;
+	return rGetHeight(tree.root);
+}
 
+int rGetHeight(node *root)
+{
+	if(!root)
+		return -1;
+	int leftHeight, rightHeight;
+	
+	leftHeight = rGetHeight(root->left);
+	rightHeight = rGetHeight(root->right);
+	
+	return MAX(leftHeight, rightHeight) + 1;
+}
+
+int getCount(bst tree)
+{
+	if(isEmpty(tree))
+		return 0;
+	return rGetCount(tree.root);
+}
+
+int rGetCount(node *root)
+{
+	if(!root)
+		return 0;
+	return rGetCount(root->left) + rGetCount(root->right) + 1;
+}
+
+int findMin(bst tree)
+{
+	if(isEmpty(tree))
+		return INT_MAX;
+	return rFindMin(tree.root);
+}
+int rFindMin(node *root)
+{
+	if(!root)
+		return INT_MAX;
+	if(!root->left)
+		return root->data;
+	else
+		rFindMin(root->left);
+}
+
+int findMax(bst tree)
+{
+	if(isEmpty(tree))
+		return INT_MIN;
+	return rFindMax(tree.root);
+}
+int rFindMax(node *root)
+{
+	if(!root)
+		return INT_MIN;
+	if(!root->right)
+		return root->data;
+	else
+		rFindMax(root->right);
+}
 
 //========================================================================================================================================================================
 //
@@ -458,6 +533,10 @@ int main(void)
 	for(int i=0; i<1024; i++)
 		insert(p,rand() % 100000);
 	
+	printf("%d = height\n",getHeight(*p));	
+	printf("%d = count\n", getCount(*p));
+	printf("%d = min\n", findMin(*p));
+	printf("%d = max\n", findMax(*p));
 	inOrder(*p);
 	deleteTree(p);
 	return 0;

@@ -1,5 +1,5 @@
 /*
- * BINARY SEARCH TREE
+ * BST TO STORING PERSONAL INFORMATION 
  */
 
 #include<stdio.h>

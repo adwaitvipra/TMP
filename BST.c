@@ -503,10 +503,75 @@ int rFindMax(node *root)
 }
 
 //========================================================================================================================================================================
-//
+// IS GIVEN BINARY TREE A BST
 //========================================================================================================================================================================
+bool isLessThan(node *root, int value)
+{
+	if(!root)
+		return true;
+	if(
+			root->data < value &&
+			isLessThan(root->left, value) &&
+			isLessThan(root->right, value)
+	  )
+		return true;
+	return false;
+}
+bool isGreaterThan(node *root, int value)
+{
+	if(!root)
+		return true;
+	if(
+			root->data > value &&
+			isGreaterThan(root->left, value) &&
+			isGreaterThan(root->right, value)
+	  )
+		return true;
+	return false;
+}
 
+bool isBST(node *root)
+{
+	if(!root)
+		return true;
+	if(
+			isLessThan(root->left, root->data) &&
+			isGreaterThan(root->right, root->data) &&
+			isBST(root->left) &&
+			isBST(root->right)
+	  )
+		return true;
+	return false;
+}
 
+bool min_max_isBST(node *root)
+{
+	if(!root)
+		return true;
+	if(
+			rFindMax(root->left) < root->data &&
+			root->data < rFindMin(root->right) &&
+			min_max_isBST(root->left) &&
+			min_max_isBST(root->right)
+	  )
+		return true;
+	return false;
+}
+
+bool isBSTrange(node *root, int minVal, int maxVal)
+{
+	if(!root)
+		return true;
+	if
+	(
+	 minVal < root->data &&
+	 root->data < maxVal &&
+	 isBSTrange(root->left, minVal, root->data) &&
+	 isBSTrange(root->right, root->data, maxVal)
+       	)
+		return true;
+	return false;
+}
 
 //========================================================================================================================================================================
 //
@@ -532,12 +597,11 @@ int main(void)
 	
 	for(int i=0; i<1024; i++)
 		insert(p,rand() % 100000);
-	
-	printf("%d = height\n",getHeight(*p));	
-	printf("%d = count\n", getCount(*p));
-	printf("%d = min\n", findMin(*p));
-	printf("%d = max\n", findMax(*p));
-	inOrder(*p);
+	printf("%d = isBSTrange\n", isBSTrange(p->root, INT_MIN, INT_MAX));
+	p->root->data = INT_MIN;
+	printf("%d = isBSTrange\n", isBSTrange(p->root, INT_MIN, INT_MAX));
+	p->root->data = INT_MAX;
+	printf("%d = isBSTrange\n", isBSTrange(p->root, INT_MIN, INT_MAX));
 	deleteTree(p);
 	return 0;
 }

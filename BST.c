@@ -573,6 +573,26 @@ bool isBSTrange(node *root, int minVal, int maxVal)
 	return false;
 }
 
+bool isBSTinorder(node * root)
+{
+	static int recent = INT_MIN;
+	bool flag = true;
+
+	if(!root)
+		return flag;
+	if(flag)
+		flag = isBSTinorder(root->left);
+	if(root->data < recent)
+	{
+		flag = false;
+		return flag;
+	}
+	recent = root->data;
+	if(flag)
+		flag = isBSTinorder(root->right);
+	return flag;
+}
+
 //========================================================================================================================================================================
 //
 //========================================================================================================================================================================
@@ -586,7 +606,7 @@ bool isBSTrange(node *root, int minVal, int maxVal)
 
 
 //========================================================================================================================================================================
-//	DIRVER
+//	DRIVER
 //========================================================================================================================================================================
 
 int main(void)
@@ -597,11 +617,7 @@ int main(void)
 	
 	for(int i=0; i<1024; i++)
 		insert(p,rand() % 100000);
-	printf("%d = isBSTrange\n", isBSTrange(p->root, INT_MIN, INT_MAX));
-	p->root->data = INT_MIN;
-	printf("%d = isBSTrange\n", isBSTrange(p->root, INT_MIN, INT_MAX));
-	p->root->data = INT_MAX;
-	printf("%d = isBSTrange\n", isBSTrange(p->root, INT_MIN, INT_MAX));
+	printf("%d = isBSTinorder\n", isBSTinorder(p->root));	
 	deleteTree(p);
 	return 0;
 }

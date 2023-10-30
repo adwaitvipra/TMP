@@ -1,3 +1,4 @@
+import random
 from math import sqrt
 from random import randint as rand
 
@@ -71,6 +72,7 @@ def generate_keypair(p, q, keysize):
         #as long as gcd(1,phi(n)) is not 1, keep generating e
         e = random.randrange(1, phi)
         g = gcd(e, phi)
+
         #generate private key
         d = mod_inverse(e, phi)
         if g == 1 and e != d:
@@ -82,30 +84,35 @@ def generate_keypair(p, q, keysize):
     return ((e, n), (d, n))
 
 def encrypt(msg_plaintext, package):
-    #unpack key value pair
     e, n = package
     msg_ciphertext = [pow(ord(c), e, n) for c in msg_plaintext]
+
     return msg_ciphertext
 
 def decrypt(msg_ciphertext, package):
     d, n = package
     msg_plaintext = [chr(pow(c, d, n)) for c in msg_ciphertext]
-    # No need to use ord() since c is now a number
-    # After decryption, we cast it back to character
-    # to be joined in a string for the final result
+
     return (''.join(msg_plaintext))
 
 if __name__ == "__main__":
     bit_length = int(input("Enter bit_length: "))
+
     print("Running RSA...")
     print("Generating public/private keypair...")
+
     public, private = generate_keypair(
         p, q, 2**bit_length)  # 8 is the keysize (bit-length) value.
+
     print("Public Key: ", public)
     print("Private Key: ", private)
+
     msg = input("Write msg: ")
+
     print([ord(c) for c in msg])
+
     encrypted_msg = encrypt(msg, public)
+
     print("Encrypted msg: ")
     print(''.join(map(lambda x: str(x), encrypted_msg)))
     print("Decrypted msg: ")

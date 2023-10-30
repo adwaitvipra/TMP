@@ -19,23 +19,23 @@ def isvalid (p,xa):
         return True
     return False
 
+def rsa ():
+    p = int(input("p ="))
+    q = int(input("q ="))
 
-p = int(input("p ="))
-q = int(input("q ="))
+    xa = int(input("a ="))
+    xb = int(input("b ="))
 
-xa = int(input("a ="))
-xb = int(input("b ="))
+    if isvalid (p, xa) and isvalid (p, xb):
+        ya = pow(q, xa) % p
+        yb = pow(q, xb) % p
 
-if isvalid (p, xa) and isvalid (p, xb):
-    ya = pow(q, xa) % p
-    yb = pow(q, xb) % p
+        print("ya =", ya)
+        print("yb =", yb)
 
-    print("ya =", ya)
-    print("yb =", yb)
+        ka = pow(yb, xa) % p
+        kb = pow(ya, xb) % p
 
-    ka = pow(yb, xa) % p
-    kb = pow(ya, xb) % p
-
-    print ("ka =", ka,"kb =", kb)
-else:
-    print("Invalid private keys!\n")
+        print ("ka =", ka,"kb =", kb)
+    else:
+        print("Invalid private keys!\n")

@@ -13,19 +13,19 @@ else:
     serverAddr = '127.0.0.1'
     serverPort = 55555
 
-clientSocket = socket (AF_INET, SOCK_STREAM)
-clientSocket.connect ((serverAddr, serverPort))
+def fib (n):
+    clientSocket = socket (AF_INET, SOCK_STREAM)
+    clientSocket.connect ((serverAddr, serverPort))
 
-while True:
-    msg = input("> ")
+    msg = str (n)
 
     clientSocket.send (msg.encode ())
 
     modifiedMsg = clientSocket.recv (4096)
 
-    print(">", modifiedMsg.decode ())
-    if modifiedMsg.decode() == "exit" :
-        break
+    res = modifiedMsg.decode ()
+    ret = int (res)
 
-clientSocket.close()
-input("Press Any Key To Exit!")
+    clientSocket.close()
+
+    return ret

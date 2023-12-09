@@ -33,7 +33,7 @@ serverSocket = socket (AF_INET, SOCK_STREAM)
 print ("Server socket created...")
 
 serverSocket.bind ((serverAddr, serverPort))
-print ("Server socket bound bo address %s & port %d..."%(serverAddr, serverPort))
+print ("Server socket bound to address %s & port %d..."%(serverAddr, serverPort))
 
 serverSocket.listen (5)
 print ("Server socket listening...")

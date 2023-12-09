@@ -1,0 +1,461 @@
+ln : 1		token : 1		class :                  UNKNOWN		lexeme : #
+ln : 1		token : 2		class :               IDENTIFIER		lexeme : include
+ln : 1		token : 3		class :                 OPERATOR		lexeme : <
+ln : 1		token : 4		class :               IDENTIFIER		lexeme : stdio
+ln : 1		token : 5		class :                  UNKNOWN		lexeme : .
+ln : 1		token : 6		class :               IDENTIFIER		lexeme : h
+ln : 1		token : 7		class :                 OPERATOR		lexeme : >
+
+ln : 2		token : 1		class :                  UNKNOWN		lexeme : #
+ln : 2		token : 2		class :               IDENTIFIER		lexeme : include
+ln : 2		token : 3		class :                 OPERATOR		lexeme : <
+ln : 2		token : 4		class :               IDENTIFIER		lexeme : stdlib
+ln : 2		token : 5		class :                  UNKNOWN		lexeme : .
+ln : 2		token : 6		class :               IDENTIFIER		lexeme : h
+ln : 2		token : 7		class :                 OPERATOR		lexeme : >
+
+ln : 3		token : 1		class :                  UNKNOWN		lexeme : #
+ln : 3		token : 2		class :               IDENTIFIER		lexeme : include
+ln : 3		token : 3		class :                 OPERATOR		lexeme : <
+ln : 3		token : 4		class :               IDENTIFIER		lexeme : stdbool
+ln : 3		token : 5		class :                  UNKNOWN		lexeme : .
+ln : 3		token : 6		class :               IDENTIFIER		lexeme : h
+ln : 3		token : 7		class :                 OPERATOR		lexeme : >
+
+ln : 4		token : 1		class :                  UNKNOWN		lexeme : #
+ln : 4		token : 2		class :               IDENTIFIER		lexeme : include
+ln : 4		token : 3		class :                 OPERATOR		lexeme : <
+ln : 4		token : 4		class :               IDENTIFIER		lexeme : string
+ln : 4		token : 5		class :                  UNKNOWN		lexeme : .
+ln : 4		token : 6		class :               IDENTIFIER		lexeme : h
+ln : 4		token : 7		class :                 OPERATOR		lexeme : >
+
+ln : 5		token : 1		class :                  UNKNOWN		lexeme : #
+ln : 5		token : 2		class :               IDENTIFIER		lexeme : include
+ln : 5		token : 3		class :                 OPERATOR		lexeme : <
+ln : 5		token : 4		class :               IDENTIFIER		lexeme : limits
+ln : 5		token : 5		class :                  UNKNOWN		lexeme : .
+ln : 5		token : 6		class :               IDENTIFIER		lexeme : h
+ln : 5		token : 7		class :                 OPERATOR		lexeme : >
+
+
+ln : 7		token : 1		class :                  UNKNOWN		lexeme : #
+ln : 7		token : 2		class :               IDENTIFIER		lexeme : include
+ln : 7		token : 3		class :                 OPERATOR		lexeme : <
+ln : 7		token : 4		class :               IDENTIFIER		lexeme : sys
+ln : 7		token : 5		class :                 OPERATOR		lexeme : /
+ln : 7		token : 6		class :               IDENTIFIER		lexeme : types
+ln : 7		token : 7		class :                  UNKNOWN		lexeme : .
+ln : 7		token : 8		class :               IDENTIFIER		lexeme : h
+ln : 7		token : 9		class :                 OPERATOR		lexeme : >
+
+ln : 8		token : 1		class :                  UNKNOWN		lexeme : #
+ln : 8		token : 2		class :               IDENTIFIER		lexeme : include
+ln : 8		token : 3		class :                 OPERATOR		lexeme : <
+ln : 8		token : 4		class :               IDENTIFIER		lexeme : sys
+ln : 8		token : 5		class :                 OPERATOR		lexeme : /
+ln : 8		token : 6		class :               IDENTIFIER		lexeme : stat
+ln : 8		token : 7		class :                  UNKNOWN		lexeme : .
+ln : 8		token : 8		class :               IDENTIFIER		lexeme : h
+ln : 8		token : 9		class :                 OPERATOR		lexeme : >
+
+ln : 9		token : 1		class :                  UNKNOWN		lexeme : #
+ln : 9		token : 2		class :               IDENTIFIER		lexeme : include
+ln : 9		token : 3		class :                 OPERATOR		lexeme : <
+ln : 9		token : 4		class :               IDENTIFIER		lexeme : unistd
+ln : 9		token : 5		class :                  UNKNOWN		lexeme : .
+ln : 9		token : 6		class :               IDENTIFIER		lexeme : h
+ln : 9		token : 7		class :                 OPERATOR		lexeme : >
+
+
+ln : 11		token : 1		class :                  UNKNOWN		lexeme : #
+ln : 11		token : 2		class :               IDENTIFIER		lexeme : include
+ln : 11		token : 3		class :                  LITERAL		lexeme : "lexizer.h"
+
+
+ln : 13		token : 1		class :                  UNKNOWN		lexeme : #
+ln : 13		token : 2		class :               IDENTIFIER		lexeme : define
+ln : 13		token : 3		class :               IDENTIFIER		lexeme : SIZE
+ln : 13		token : 4		class :                  INTEGER		lexeme : 128
+
+ln : 14		token : 1		class :                  UNKNOWN		lexeme : #
+ln : 14		token : 2		class :               IDENTIFIER		lexeme : define
+ln : 14		token : 3		class :               IDENTIFIER		lexeme : FDEF
+ln : 14		token : 4		class :                  LITERAL		lexeme : "output.lx"
+
+ln : 15		token : 1		class :                  UNKNOWN		lexeme : #
+ln : 15		token : 2		class :               IDENTIFIER		lexeme : define
+ln : 15		token : 3		class :               IDENTIFIER		lexeme : LX
+ln : 15		token : 4		class :                  LITERAL		lexeme : ".lx"
+
+
+ln : 17		token : 1		class :                  KEYWORD		lexeme : int
+ln : 17		token : 2		class :                  KEYWORD		lexeme : main
+ln : 17		token : 3		class :          OPENING_BRACKET		lexeme : (
+ln : 17		token : 4		class :                  KEYWORD		lexeme : const
+ln : 17		token : 5		class :                  KEYWORD		lexeme : int
+ln : 17		token : 6		class :               IDENTIFIER		lexeme : argc
+ln : 17		token : 7		class :                  UNKNOWN		lexeme : ,
+ln : 17		token : 8		class :                  KEYWORD		lexeme : const
+ln : 17		token : 9		class :                  KEYWORD		lexeme : char
+ln : 17		token : 10		class :                 OPERATOR		lexeme : *
+ln : 17		token : 11		class :               IDENTIFIER		lexeme : argv
+ln : 17		token : 12		class :                  UNKNOWN		lexeme : [
+ln : 17		token : 13		class :                  UNKNOWN		lexeme : ]
+ln : 17		token : 14		class :          CLOSING_BRACKET		lexeme : )
+
+ln : 18		token : 1		class :          OPENING_BRACKET		lexeme : {
+
+ln : 19		token : 1		class :                  KEYWORD		lexeme : int
+ln : 19		token : 2		class :               IDENTIFIER		lexeme : retval
+ln : 19		token : 3		class :                 OPERATOR		lexeme : =
+ln : 19		token : 4		class :               IDENTIFIER		lexeme : EXIT_FAILURE
+ln : 19		token : 5		class :                SEMICOLON		lexeme : ;
+
+
+ln : 21		token : 1		class :               IDENTIFIER		lexeme : size_t
+ln : 21		token : 2		class :               IDENTIFIER		lexeme : cnt
+ln : 21		token : 3		class :                SEMICOLON		lexeme : ;
+
+ln : 22		token : 1		class :                  KEYWORD		lexeme : struct
+ln : 22		token : 2		class :               IDENTIFIER		lexeme : stat
+ln : 22		token : 3		class :               IDENTIFIER		lexeme : statbuf
+ln : 22		token : 4		class :                SEMICOLON		lexeme : ;
+
+
+ln : 24		token : 1		class :                  KEYWORD		lexeme : const
+ln : 24		token : 2		class :                  KEYWORD		lexeme : char
+ln : 24		token : 3		class :                 OPERATOR		lexeme : *
+ln : 24		token : 4		class :               IDENTIFIER		lexeme : fdef
+ln : 24		token : 5		class :                 OPERATOR		lexeme : =
+ln : 24		token : 6		class :               IDENTIFIER		lexeme : FDEF
+ln : 24		token : 7		class :                SEMICOLON		lexeme : ;
+
+ln : 25		token : 1		class :                  KEYWORD		lexeme : char
+ln : 25		token : 2		class :                 OPERATOR		lexeme : *
+ln : 25		token : 3		class :               IDENTIFIER		lexeme : fin
+ln : 25		token : 4		class :                 OPERATOR		lexeme : =
+ln : 25		token : 5		class :               IDENTIFIER		lexeme : NULL
+ln : 25		token : 6		class :                  UNKNOWN		lexeme : ,
+ln : 25		token : 7		class :                 OPERATOR		lexeme : *
+ln : 25		token : 8		class :               IDENTIFIER		lexeme : fout
+ln : 25		token : 9		class :                 OPERATOR		lexeme : =
+ln : 25		token : 10		class :               IDENTIFIER		lexeme : NULL
+ln : 25		token : 11		class :                  UNKNOWN		lexeme : ,
+ln : 25		token : 12		class :                 OPERATOR		lexeme : *
+ln : 25		token : 13		class :               IDENTIFIER		lexeme : fincp
+ln : 25		token : 14		class :                 OPERATOR		lexeme : =
+ln : 25		token : 15		class :               IDENTIFIER		lexeme : NULL
+ln : 25		token : 16		class :                SEMICOLON		lexeme : ;
+
+ln : 26		token : 1		class :                  KEYWORD		lexeme : char
+ln : 26		token : 2		class :               IDENTIFIER		lexeme : buffer
+ln : 26		token : 3		class :                  UNKNOWN		lexeme : [
+ln : 26		token : 4		class :               IDENTIFIER		lexeme : SIZE
+ln : 26		token : 5		class :                  UNKNOWN		lexeme : ]
+ln : 26		token : 6		class :                SEMICOLON		lexeme : ;
+
+
+ln : 28		token : 1		class :               IDENTIFIER		lexeme : FILE
+ln : 28		token : 2		class :                 OPERATOR		lexeme : *
+ln : 28		token : 3		class :               IDENTIFIER		lexeme : fhin
+ln : 28		token : 4		class :                 OPERATOR		lexeme : =
+ln : 28		token : 5		class :               IDENTIFIER		lexeme : NULL
+ln : 28		token : 6		class :                  UNKNOWN		lexeme : ,
+ln : 28		token : 7		class :                 OPERATOR		lexeme : *
+ln : 28		token : 8		class :               IDENTIFIER		lexeme : fhout
+ln : 28		token : 9		class :                 OPERATOR		lexeme : =
+ln : 28		token : 10		class :               IDENTIFIER		lexeme : NULL
+ln : 28		token : 11		class :                SEMICOLON		lexeme : ;
+
+
+ln : 30		token : 1		class :                  KEYWORD		lexeme : if
+ln : 30		token : 2		class :          OPENING_BRACKET		lexeme : (
+ln : 30		token : 3		class :               IDENTIFIER		lexeme : argc
+ln : 30		token : 4		class :                 OPERATOR		lexeme : >
+ln : 30		token : 5		class :                  INTEGER		lexeme : 1
+ln : 30		token : 6		class :          CLOSING_BRACKET		lexeme : )
+
+ln : 31		token : 1		class :          OPENING_BRACKET		lexeme : {
+
+ln : 32		token : 1		class :               IDENTIFIER		lexeme : fin
+ln : 32		token : 2		class :                 OPERATOR		lexeme : =
+ln : 32		token : 3		class :          OPENING_BRACKET		lexeme : (
+ln : 32		token : 4		class :                  KEYWORD		lexeme : char
+ln : 32		token : 5		class :                 OPERATOR		lexeme : *
+ln : 32		token : 6		class :          CLOSING_BRACKET		lexeme : )
+ln : 32		token : 7		class :               IDENTIFIER		lexeme : argv
+ln : 32		token : 8		class :                  UNKNOWN		lexeme : [
+ln : 32		token : 9		class :                  INTEGER		lexeme : 1
+ln : 32		token : 10		class :                  UNKNOWN		lexeme : ]
+ln : 32		token : 11		class :                SEMICOLON		lexeme : ;
+
+
+ln : 34		token : 1		class :                  KEYWORD		lexeme : if
+ln : 34		token : 2		class :          OPENING_BRACKET		lexeme : (
+ln : 34		token : 3		class :               IDENTIFIER		lexeme : argc
+ln : 34		token : 4		class :                 OPERATOR		lexeme : >
+ln : 34		token : 5		class :                  INTEGER		lexeme : 2
+ln : 34		token : 6		class :          CLOSING_BRACKET		lexeme : )
+
+ln : 35		token : 1		class :               IDENTIFIER		lexeme : fout
+ln : 35		token : 2		class :                 OPERATOR		lexeme : =
+ln : 35		token : 3		class :          OPENING_BRACKET		lexeme : (
+ln : 35		token : 4		class :                  KEYWORD		lexeme : char
+ln : 35		token : 5		class :                 OPERATOR		lexeme : *
+ln : 35		token : 6		class :          CLOSING_BRACKET		lexeme : )
+ln : 35		token : 7		class :               IDENTIFIER		lexeme : argv
+ln : 35		token : 8		class :                  UNKNOWN		lexeme : [
+ln : 35		token : 9		class :                  INTEGER		lexeme : 2
+ln : 35		token : 10		class :                  UNKNOWN		lexeme : ]
+ln : 35		token : 11		class :                SEMICOLON		lexeme : ;
+
+ln : 36		token : 1		class :                  KEYWORD		lexeme : else
+
+ln : 37		token : 1		class :          OPENING_BRACKET		lexeme : {
+
+ln : 38		token : 1		class :                  KEYWORD		lexeme : if
+ln : 38		token : 2		class :          OPENING_BRACKET		lexeme : (
+ln : 38		token : 3		class :          OPENING_BRACKET		lexeme : (
+ln : 38		token : 4		class :               IDENTIFIER		lexeme : fincp
+ln : 38		token : 5		class :                 OPERATOR		lexeme : =
+ln : 38		token : 6		class :          OPENING_BRACKET		lexeme : (
+ln : 38		token : 7		class :                  KEYWORD		lexeme : char
+ln : 38		token : 8		class :                 OPERATOR		lexeme : *
+ln : 38		token : 9		class :          CLOSING_BRACKET		lexeme : )
+ln : 38		token : 10		class :               IDENTIFIER		lexeme : malloc
+ln : 38		token : 11		class :          OPENING_BRACKET		lexeme : (
+ln : 38		token : 12		class :          OPENING_BRACKET		lexeme : (
+ln : 38		token : 13		class :               IDENTIFIER		lexeme : strlen
+ln : 38		token : 14		class :          OPENING_BRACKET		lexeme : (
+ln : 38		token : 15		class :               IDENTIFIER		lexeme : fin
+ln : 38		token : 16		class :          CLOSING_BRACKET		lexeme : )
+ln : 38		token : 17		class :                 OPERATOR		lexeme : +
+ln : 38		token : 18		class :                  INTEGER		lexeme : 2
+ln : 38		token : 19		class :          CLOSING_BRACKET		lexeme : )
+ln : 38		token : 20		class :                 OPERATOR		lexeme : *
+ln : 38		token : 21		class :                  KEYWORD		lexeme : sizeof
+ln : 38		token : 22		class :          OPENING_BRACKET		lexeme : (
+ln : 38		token : 23		class :                  KEYWORD		lexeme : char
+ln : 38		token : 24		class :          CLOSING_BRACKET		lexeme : )
+ln : 38		token : 25		class :          CLOSING_BRACKET		lexeme : )
+ln : 38		token : 26		class :          CLOSING_BRACKET		lexeme : )
+
+ln : 39		token : 1		class :                  UNKNOWN		lexeme : &
+ln : 39		token : 2		class :                  UNKNOWN		lexeme : &
+ln : 39		token : 3		class :          OPENING_BRACKET		lexeme : (
+ln : 39		token : 4		class :               IDENTIFIER		lexeme : fincp
+ln : 39		token : 5		class :                 OPERATOR		lexeme : =
+ln : 39		token : 6		class :               IDENTIFIER		lexeme : strcpy
+ln : 39		token : 7		class :          OPENING_BRACKET		lexeme : (
+ln : 39		token : 8		class :               IDENTIFIER		lexeme : fincp
+ln : 39		token : 9		class :                  UNKNOWN		lexeme : ,
+ln : 39		token : 10		class :               IDENTIFIER		lexeme : fin
+ln : 39		token : 11		class :          CLOSING_BRACKET		lexeme : )
+ln : 39		token : 12		class :          CLOSING_BRACKET		lexeme : )
+ln : 39		token : 13		class :          CLOSING_BRACKET		lexeme : )
+
+ln : 40		token : 1		class :          OPENING_BRACKET		lexeme : {
+
+ln : 41		token : 1		class :               IDENTIFIER		lexeme : fincp
+ln : 41		token : 2		class :                 OPERATOR		lexeme : =
+ln : 41		token : 3		class :          OPENING_BRACKET		lexeme : (
+ln : 41		token : 4		class :                  KEYWORD		lexeme : char
+ln : 41		token : 5		class :                 OPERATOR		lexeme : *
+ln : 41		token : 6		class :          CLOSING_BRACKET		lexeme : )
+ln : 41		token : 7		class :               IDENTIFIER		lexeme : strtok
+ln : 41		token : 8		class :          OPENING_BRACKET		lexeme : (
+ln : 41		token : 9		class :               IDENTIFIER		lexeme : fincp
+ln : 41		token : 10		class :                  UNKNOWN		lexeme : ,
+ln : 41		token : 11		class :                  LITERAL		lexeme : "."
+ln : 41		token : 12		class :          CLOSING_BRACKET		lexeme : )
+ln : 41		token : 13		class :                SEMICOLON		lexeme : ;
+
+ln : 42		token : 1		class :               IDENTIFIER		lexeme : fincp
+ln : 42		token : 2		class :                 OPERATOR		lexeme : =
+ln : 42		token : 3		class :               IDENTIFIER		lexeme : strcat
+ln : 42		token : 4		class :          OPENING_BRACKET		lexeme : (
+ln : 42		token : 5		class :               IDENTIFIER		lexeme : fincp
+ln : 42		token : 6		class :                  UNKNOWN		lexeme : ,
+ln : 42		token : 7		class :               IDENTIFIER		lexeme : LX
+ln : 42		token : 8		class :          CLOSING_BRACKET		lexeme : )
+ln : 42		token : 9		class :                SEMICOLON		lexeme : ;
+
+
+ln : 44		token : 1		class :               IDENTIFIER		lexeme : fout
+ln : 44		token : 2		class :                 OPERATOR		lexeme : =
+ln : 44		token : 3		class :          OPENING_BRACKET		lexeme : (
+ln : 44		token : 4		class :                  KEYWORD		lexeme : char
+ln : 44		token : 5		class :                 OPERATOR		lexeme : *
+ln : 44		token : 6		class :          CLOSING_BRACKET		lexeme : )
+ln : 44		token : 7		class :               IDENTIFIER		lexeme : fincp
+ln : 44		token : 8		class :                SEMICOLON		lexeme : ;
+
+ln : 45		token : 1		class :          CLOSING_BRACKET		lexeme : }
+
+ln : 46		token : 1		class :                  KEYWORD		lexeme : else
+
+ln : 47		token : 1		class :          OPENING_BRACKET		lexeme : {
+
+ln : 48		token : 1		class :               IDENTIFIER		lexeme : fout
+ln : 48		token : 2		class :                 OPERATOR		lexeme : =
+ln : 48		token : 3		class :          OPENING_BRACKET		lexeme : (
+ln : 48		token : 4		class :                  KEYWORD		lexeme : char
+ln : 48		token : 5		class :                 OPERATOR		lexeme : *
+ln : 48		token : 6		class :          CLOSING_BRACKET		lexeme : )
+ln : 48		token : 7		class :               IDENTIFIER		lexeme : fdef
+ln : 48		token : 8		class :                SEMICOLON		lexeme : ;
+
+ln : 49		token : 1		class :          CLOSING_BRACKET		lexeme : }
+
+ln : 50		token : 1		class :          CLOSING_BRACKET		lexeme : }
+
+
+
+ln : 53		token : 1		class :          CLOSING_BRACKET		lexeme : }
+
+
+ln : 55		token : 1		class :                  KEYWORD		lexeme : if
+ln : 55		token : 2		class :          OPENING_BRACKET		lexeme : (
+ln : 55		token : 3		class :               IDENTIFIER		lexeme : fin
+ln : 55		token : 4		class :                  UNKNOWN		lexeme : &
+ln : 55		token : 5		class :                  UNKNOWN		lexeme : &
+ln : 55		token : 6		class :               IDENTIFIER		lexeme : fout
+ln : 55		token : 7		class :                  UNKNOWN		lexeme : &
+ln : 55		token : 8		class :                  UNKNOWN		lexeme : &
+ln : 55		token : 9		class :                 OPERATOR		lexeme : !
+ln : 55		token : 10		class :               IDENTIFIER		lexeme : stat
+ln : 55		token : 11		class :          OPENING_BRACKET		lexeme : (
+ln : 55		token : 12		class :               IDENTIFIER		lexeme : fin
+ln : 55		token : 13		class :                  UNKNOWN		lexeme : ,
+ln : 55		token : 14		class :                  UNKNOWN		lexeme : &
+ln : 55		token : 15		class :               IDENTIFIER		lexeme : statbuf
+ln : 55		token : 16		class :          CLOSING_BRACKET		lexeme : )
+
+ln : 56		token : 1		class :                  UNKNOWN		lexeme : &
+ln : 56		token : 2		class :                  UNKNOWN		lexeme : &
+ln : 56		token : 3		class :          OPENING_BRACKET		lexeme : (
+ln : 56		token : 4		class :               IDENTIFIER		lexeme : fhin
+ln : 56		token : 5		class :                 OPERATOR		lexeme : =
+ln : 56		token : 6		class :               IDENTIFIER		lexeme : fopen
+ln : 56		token : 7		class :          OPENING_BRACKET		lexeme : (
+ln : 56		token : 8		class :               IDENTIFIER		lexeme : fin
+ln : 56		token : 9		class :                  UNKNOWN		lexeme : ,
+ln : 56		token : 10		class :                  LITERAL		lexeme : "r"
+ln : 56		token : 11		class :          CLOSING_BRACKET		lexeme : )
+ln : 56		token : 12		class :          CLOSING_BRACKET		lexeme : )
+ln : 56		token : 13		class :                  UNKNOWN		lexeme : &
+ln : 56		token : 14		class :                  UNKNOWN		lexeme : &
+ln : 56		token : 15		class :          OPENING_BRACKET		lexeme : (
+ln : 56		token : 16		class :               IDENTIFIER		lexeme : fhout
+ln : 56		token : 17		class :                 OPERATOR		lexeme : =
+ln : 56		token : 18		class :               IDENTIFIER		lexeme : fopen
+ln : 56		token : 19		class :          OPENING_BRACKET		lexeme : (
+ln : 56		token : 20		class :               IDENTIFIER		lexeme : fout
+ln : 56		token : 21		class :                  UNKNOWN		lexeme : ,
+ln : 56		token : 22		class :                  LITERAL		lexeme : "w"
+ln : 56		token : 23		class :          CLOSING_BRACKET		lexeme : )
+ln : 56		token : 24		class :          CLOSING_BRACKET		lexeme : )
+ln : 56		token : 25		class :          CLOSING_BRACKET		lexeme : )
+
+ln : 57		token : 1		class :          OPENING_BRACKET		lexeme : {
+
+
+ln : 59		token : 1		class :                  KEYWORD		lexeme : while
+ln : 59		token : 2		class :          OPENING_BRACKET		lexeme : (
+ln : 59		token : 3		class :          OPENING_BRACKET		lexeme : (
+ln : 59		token : 4		class :               IDENTIFIER		lexeme : cnt
+ln : 59		token : 5		class :                 OPERATOR		lexeme : =
+ln : 59		token : 6		class :               IDENTIFIER		lexeme : fread
+ln : 59		token : 7		class :          OPENING_BRACKET		lexeme : (
+ln : 59		token : 8		class :               IDENTIFIER		lexeme : buffer
+ln : 59		token : 9		class :                  UNKNOWN		lexeme : ,
+ln : 59		token : 10		class :                  KEYWORD		lexeme : sizeof
+ln : 59		token : 11		class :          OPENING_BRACKET		lexeme : (
+ln : 59		token : 12		class :                  KEYWORD		lexeme : char
+ln : 59		token : 13		class :          CLOSING_BRACKET		lexeme : )
+ln : 59		token : 14		class :                  UNKNOWN		lexeme : ,
+ln : 59		token : 15		class :               IDENTIFIER		lexeme : SIZE
+ln : 59		token : 16		class :                  UNKNOWN		lexeme : ,
+ln : 59		token : 17		class :               IDENTIFIER		lexeme : fhin
+ln : 59		token : 18		class :          CLOSING_BRACKET		lexeme : )
+ln : 59		token : 19		class :          CLOSING_BRACKET		lexeme : )
+ln : 59		token : 20		class :                 OPERATOR		lexeme : >
+ln : 59		token : 21		class :                  INTEGER		lexeme : 0
+ln : 59		token : 22		class :          CLOSING_BRACKET		lexeme : )
+
+ln : 60		token : 1		class :          OPENING_BRACKET		lexeme : {
+
+ln : 61		token : 1		class :               IDENTIFIER		lexeme : fwrite
+ln : 61		token : 2		class :          OPENING_BRACKET		lexeme : (
+ln : 61		token : 3		class :               IDENTIFIER		lexeme : buffer
+ln : 61		token : 4		class :                  UNKNOWN		lexeme : ,
+ln : 61		token : 5		class :                  KEYWORD		lexeme : sizeof
+ln : 61		token : 6		class :          OPENING_BRACKET		lexeme : (
+ln : 61		token : 7		class :                  KEYWORD		lexeme : char
+ln : 61		token : 8		class :          CLOSING_BRACKET		lexeme : )
+ln : 61		token : 9		class :                  UNKNOWN		lexeme : ,
+ln : 61		token : 10		class :               IDENTIFIER		lexeme : cnt
+ln : 61		token : 11		class :                  UNKNOWN		lexeme : ,
+ln : 61		token : 12		class :               IDENTIFIER		lexeme : fhout
+ln : 61		token : 13		class :          CLOSING_BRACKET		lexeme : )
+ln : 61		token : 14		class :                SEMICOLON		lexeme : ;
+
+ln : 62		token : 1		class :          CLOSING_BRACKET		lexeme : }
+
+
+ln : 64		token : 1		class :                  KEYWORD		lexeme : if
+ln : 64		token : 2		class :          OPENING_BRACKET		lexeme : (
+ln : 64		token : 3		class :                 OPERATOR		lexeme : !
+ln : 64		token : 4		class :               IDENTIFIER		lexeme : fclose
+ln : 64		token : 5		class :          OPENING_BRACKET		lexeme : (
+ln : 64		token : 6		class :               IDENTIFIER		lexeme : fhin
+ln : 64		token : 7		class :          CLOSING_BRACKET		lexeme : )
+ln : 64		token : 8		class :                  UNKNOWN		lexeme : &
+ln : 64		token : 9		class :                  UNKNOWN		lexeme : &
+ln : 64		token : 10		class :                 OPERATOR		lexeme : !
+ln : 64		token : 11		class :               IDENTIFIER		lexeme : fclose
+ln : 64		token : 12		class :          OPENING_BRACKET		lexeme : (
+ln : 64		token : 13		class :               IDENTIFIER		lexeme : fhout
+ln : 64		token : 14		class :          CLOSING_BRACKET		lexeme : )
+ln : 64		token : 15		class :          CLOSING_BRACKET		lexeme : )
+
+ln : 65		token : 1		class :          OPENING_BRACKET		lexeme : {
+
+ln : 66		token : 1		class :               IDENTIFIER		lexeme : retval
+ln : 66		token : 2		class :                 OPERATOR		lexeme : =
+ln : 66		token : 3		class :               IDENTIFIER		lexeme : EXIT_SUCCESS
+ln : 66		token : 4		class :                SEMICOLON		lexeme : ;
+
+ln : 67		token : 1		class :          CLOSING_BRACKET		lexeme : }
+
+ln : 68		token : 1		class :          CLOSING_BRACKET		lexeme : }
+
+
+ln : 70		token : 1		class :                  KEYWORD		lexeme : if
+ln : 70		token : 2		class :          OPENING_BRACKET		lexeme : (
+ln : 70		token : 3		class :               IDENTIFIER		lexeme : fincp
+ln : 70		token : 4		class :          CLOSING_BRACKET		lexeme : )
+
+ln : 71		token : 1		class :          OPENING_BRACKET		lexeme : {
+
+ln : 72		token : 1		class :               IDENTIFIER		lexeme : free
+ln : 72		token : 2		class :          OPENING_BRACKET		lexeme : (
+ln : 72		token : 3		class :               IDENTIFIER		lexeme : fincp
+ln : 72		token : 4		class :          CLOSING_BRACKET		lexeme : )
+ln : 72		token : 5		class :                SEMICOLON		lexeme : ;
+
+ln : 73		token : 1		class :               IDENTIFIER		lexeme : fincp
+ln : 73		token : 2		class :                 OPERATOR		lexeme : =
+ln : 73		token : 3		class :               IDENTIFIER		lexeme : NULL
+ln : 73		token : 4		class :                SEMICOLON		lexeme : ;
+
+ln : 74		token : 1		class :          CLOSING_BRACKET		lexeme : }
+
+
+ln : 76		token : 1		class :                  KEYWORD		lexeme : return
+ln : 76		token : 2		class :               IDENTIFIER		lexeme : retval
+ln : 76		token : 3		class :                SEMICOLON		lexeme : ;
+
+ln : 77		token : 1		class :          CLOSING_BRACKET		lexeme : }
+

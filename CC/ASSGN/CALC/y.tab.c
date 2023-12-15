@@ -99,10 +99,7 @@
 #  endif
 # endif
 
-/* Use api.header.include to #include this header
-   instead of duplicating it here.  */
-#ifndef YY_YY_Y_TAB_H_INCLUDED
-# define YY_YY_Y_TAB_H_INCLUDED
+
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -148,7 +145,7 @@ union YYSTYPE
 #line 11 "calculator.y"
  double p;
 
-#line 152 "y.tab.c"
+#line 149 "y.tab.c"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -163,7 +160,7 @@ extern YYSTYPE yylval;
 int yyparse (void);
 
 
-#endif /* !YY_YY_Y_TAB_H_INCLUDED  */
+
 /* Symbol kind.  */
 enum yysymbol_kind_t
 {
@@ -1156,25 +1153,25 @@ yyreduce:
   case 2: /* ss: expr  */
 #line 22 "calculator.y"
          {printf ("%g\n", (yyvsp[0].p));}
-#line 1160 "y.tab.c"
+#line 1157 "y.tab.c"
     break;
 
   case 3: /* expr: expr '+' expr  */
 #line 24 "calculator.y"
                      { (yyval.p) = (yyvsp[-2].p) + (yyvsp[0].p);}
-#line 1166 "y.tab.c"
+#line 1163 "y.tab.c"
     break;
 
   case 4: /* expr: expr '-' expr  */
 #line 25 "calculator.y"
                      { (yyval.p) = (yyvsp[-2].p) - (yyvsp[0].p);}
-#line 1172 "y.tab.c"
+#line 1169 "y.tab.c"
     break;
 
   case 5: /* expr: expr '*' expr  */
 #line 26 "calculator.y"
                      { (yyval.p) = (yyvsp[-2].p) * (yyvsp[0].p);}
-#line 1178 "y.tab.c"
+#line 1175 "y.tab.c"
     break;
 
   case 6: /* expr: expr '/' expr  */
@@ -1188,53 +1185,53 @@ yyreduce:
 				(yyval.p) = (yyvsp[-2].p) / (yyvsp[0].p);
 			}
 		}
-#line 1192 "y.tab.c"
+#line 1189 "y.tab.c"
     break;
 
   case 7: /* expr: '-' expr  */
 #line 36 "calculator.y"
                         { (yyval.p) = -(yyvsp[0].p);}
-#line 1198 "y.tab.c"
+#line 1195 "y.tab.c"
     break;
 
   case 8: /* expr: '(' expr ')'  */
 #line 37 "calculator.y"
                         { (yyval.p) = (yyvsp[-1].p);}
-#line 1204 "y.tab.c"
+#line 1201 "y.tab.c"
     break;
 
   case 9: /* expr: SIN '(' expr ')'  */
 #line 38 "calculator.y"
                         { (yyval.p) = sin ((yyvsp[-1].p));}
-#line 1210 "y.tab.c"
+#line 1207 "y.tab.c"
     break;
 
   case 10: /* expr: COS '(' expr ')'  */
 #line 39 "calculator.y"
                         { (yyval.p) = cos ((yyvsp[-1].p));}
-#line 1216 "y.tab.c"
+#line 1213 "y.tab.c"
     break;
 
   case 11: /* expr: TAN '(' expr ')'  */
 #line 40 "calculator.y"
                         { (yyval.p) = tan ((yyvsp[-1].p));}
-#line 1222 "y.tab.c"
+#line 1219 "y.tab.c"
     break;
 
   case 12: /* expr: LN '(' expr ')'  */
 #line 41 "calculator.y"
                         { (yyval.p) = log ((yyvsp[-1].p));}
-#line 1228 "y.tab.c"
+#line 1225 "y.tab.c"
     break;
 
   case 13: /* expr: SQRT '(' expr ')'  */
 #line 42 "calculator.y"
                         { (yyval.p) = sqrt ((yyvsp[-1].p));}
-#line 1234 "y.tab.c"
+#line 1231 "y.tab.c"
     break;
 
 
-#line 1238 "y.tab.c"
+#line 1235 "y.tab.c"
 
       default: break;
     }

@@ -6,13 +6,13 @@ from generate import *
 # CLIENT (CID, PWD)
 #------------------------------------------------------------------------------#
 
-generate_clients(climit, crange)
+# generate_clients(climit, crange)
 
 #------------------------------------------------------------------------------#
 # ADMIN (CID, NAME, GENDER, DOB, ROLE)
 #------------------------------------------------------------------------------#
 
-populate_admins(admins, climit, ctype[0], crange)
+# populate_admins(admins, climit, ctype[0], crange)
 
 #------------------------------------------------------------------------------#
 # ORGANIZATION  (CID, NAME, COUNTRY,
@@ -20,7 +20,7 @@ populate_admins(admins, climit, ctype[0], crange)
 #                REQUIREMENTS, PREFERENCES)
 #------------------------------------------------------------------------------#
 
-generate_organizations(organizations, climit, ctype[1], crange)
+# populate_organizations(organizations, climit, ctype[1], crange)
 
 #------------------------------------------------------------------------------#
 # INDIVIDUAL    (CID, NAME, GENDER, DOB,
@@ -29,6 +29,14 @@ generate_organizations(organizations, climit, ctype[1], crange)
 #                REQUIREMENTS, PREFERENCES)
 #------------------------------------------------------------------------------#
 
-generate_individuals()
+# populate_individuals(names, climit, ctype[2], crange)
+
+#------------------------------------------------------------------------------#
+# TRANSACTION   (CID, TYPE,
+#                AMOUNT,
+#                MODE, DATE)
+#------------------------------------------------------------------------------#
+
+populate_transactions(txnlimit)
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#

@@ -87,6 +87,14 @@
     "Microfinance digital expansion",
     "Predictive risk analysis tools"
   ],
+  "Food & Beverage": [
+    "Low Production Costs",
+    "High Profit Margins",
+    "Flexible Payment Terms",
+    "Tax Incentives",
+    "Stable Cash Flow",
+    "Sustainable Growth"    
+  ],
   "Healthcare": [
     "Personalized medicine programs",
     "Wearable health monitoring",
@@ -134,6 +142,30 @@
     "Closed-loop recycling systems",
     "Smart factory interoperability",
     "Self-healing material research"
+  ],
+  "Media & Publishing": [
+    "High Advertising Revenue",
+    "Subscription-Based Revenue Growth",
+    "Flexible Payment Models",
+    "Low Content Acquisition Costs",
+    "Tax Benefits",
+    "Stable Cash Flow"
+  ],
+  "Mining & Metals": [
+    "Low Extraction Costs",
+    "High Commodity Prices",
+    "Favorable Tax Policies",
+    "Stable Supply Chain",
+    "Long-Term Investment Returns",
+    "Sustainable Profit Margins"
+  ],
+  "Pharmaceuticals": [
+    "High Drug Pricing Power",
+    "Strong Patent Protection",
+    "Favorable Tax Incentives",
+    "Stable R&D Funding",
+    "Low Production Costs",
+    "Sustainable Profit Margins"
   ],
   "Real Estate": [
     "Co-living and co-working spaces",

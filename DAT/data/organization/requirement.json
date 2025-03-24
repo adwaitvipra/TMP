@@ -87,6 +87,14 @@
     "AI-driven risk analysis",
     "Regulatory compliance costs"
   ],
+  "Food & Beverage": [
+    "Capital Investment",
+    "Operational Expenses",
+    "Raw Material Costs",
+    "Regulatory Compliance Costs",
+    "Marketing & Branding Budget",
+    "Revenue Forecasting"    
+  ],
   "Healthcare": [
     "Telemedicine financing",
     "AI in healthcare",
@@ -135,6 +143,30 @@
     "Industrial robotics financing",
     "Workforce training grants"
   ],
+  "Media & Publishing": [
+    "Content Production Budget",
+    "Operational Expenses",
+    "Licensing & Copyright Costs",
+    "Technology & Infrastructure Investment",
+    "Marketing & Distribution Budget",
+    "Revenue Forecasting"
+  ],
+  "Mining & Metals": [
+    "Exploration & Development Costs",
+    "Operational Expenses",
+    "Equipment & Maintenance Investment",
+    "Environmental Compliance Costs",
+    "Logistics & Transportation Budget",
+    "Revenue Forecasting"
+  ],
+  "Pharmaceuticals": [
+    "Research & Development Budget",
+    "Regulatory Compliance Costs",
+    "Manufacturing & Quality Control Expenses",
+    "Marketing & Distribution Budget",
+    "Supply Chain & Logistics Investment",
+    "Revenue Forecasting"
+  ], 
   "Real Estate": [
     "Smart city infrastructure",
     "Urban redevelopment",

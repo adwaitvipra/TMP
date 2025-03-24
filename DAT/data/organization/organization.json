@@ -1,0 +1,2402 @@
+[
+  {
+    "NAME": "Airbus",
+    "COUNTRY": "France",
+    "INDUSTRY": "Aircraft Manufacturing",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "Boeing",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Aircraft Manufacturing",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "Bombardier Aerospace",
+    "COUNTRY": "Canada",
+    "INDUSTRY": "Aircraft Manufacturing",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "Embraer",
+    "COUNTRY": "Brazil",
+    "INDUSTRY": "Aircraft Manufacturing",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "BAE Systems",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Defense Contractors",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "General Dynamics",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Defense Contractors",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "Lockheed Martin",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Defense Contractors",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "Northrop Grumman",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Defense Contractors",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "Leonardo S.p.A.",
+    "COUNTRY": "Italy",
+    "INDUSTRY": "Military Systems",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "Raytheon Technologies",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Military Systems",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "Saab AB",
+    "COUNTRY": "Sweden",
+    "INDUSTRY": "Military Systems",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "Thales Group",
+    "COUNTRY": "France",
+    "INDUSTRY": "Military Systems",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "Blue Origin",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Space Exploration",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "Northrop Grumman",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Space Exploration",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "SpaceX",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Space Exploration",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "United Launch Alliance",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Space Exploration",
+    "SECTOR": "Aerospace & Defense"
+  },
+  {
+    "NAME": "ADM (Archer Daniels Midland)",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Agribusiness",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Bunge Limited",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Agribusiness",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Cargill",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Agribusiness",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Nutrien Ag Solutions",
+    "COUNTRY": "Canada",
+    "INDUSTRY": "Agribusiness",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Ag Leader Technology",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Precision Agriculture",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "AgJunction, Inc.",
+    "COUNTRY": "Canada",
+    "INDUSTRY": "Precision Agriculture",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Deere & Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Precision Agriculture",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Trimble Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Precision Agriculture",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "BASF SE",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Agrochemicals",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Bayer CropScience",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Agrochemicals",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Corteva Agriscience",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Agrochemicals",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Syngenta AG",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Agrochemicals",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Bayer CropScience",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Seed & Fertilizer",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Corteva Agriscience",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Seed & Fertilizer",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Nutrien Ltd.",
+    "COUNTRY": "Canada",
+    "INDUSTRY": "Seed & Fertilizer",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "Syngenta AG",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Seed & Fertilizer",
+    "SECTOR": "Agriculture"
+  },
+  {
+    "NAME": "BYD Auto",
+    "COUNTRY": "China",
+    "INDUSTRY": "Automakers",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Ford Motor Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Automakers",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Tesla, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Automakers",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Volkswagen Group",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Automakers",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "BYD Auto",
+    "COUNTRY": "China",
+    "INDUSTRY": "Electric Vehicles",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Hyundai Motor Company",
+    "COUNTRY": "South Korea",
+    "INDUSTRY": "Electric Vehicles",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Tesla, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Electric Vehicles",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Volkswagen Group",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Electric Vehicles",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Bosch",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Auto Parts & Suppliers",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Continental AG",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Auto Parts & Suppliers",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "DENSO Corporation",
+    "COUNTRY": "Japan",
+    "INDUSTRY": "Auto Parts & Suppliers",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Magna International",
+    "COUNTRY": "Canada",
+    "INDUSTRY": "Auto Parts & Suppliers",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Didi Chuxing",
+    "COUNTRY": "China",
+    "INDUSTRY": "Mobility Services",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Lyft, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Mobility Services",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Uber Technologies, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Mobility Services",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Waymo LLC",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Mobility Services",
+    "SECTOR": "Automotive"
+  },
+  {
+    "NAME": "Amgen Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Biopharmaceuticals",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Biogen Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Biopharmaceuticals",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Gilead Sciences",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Biopharmaceuticals",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Novo Nordisk A/S",
+    "COUNTRY": "Denmark",
+    "INDUSTRY": "Biopharmaceuticals",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "23andMe Holding Co.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Genomics",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Illumina, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Genomics",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Oxford Nanopore Technologies",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Genomics",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Pacific Biosciences of California, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Genomics",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "CRISPR Therapeutics AG",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Medical Biotech",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Moderna, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Medical Biotech",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Regeneron Pharmaceuticals, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Medical Biotech",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Vertex Pharmaceuticals Incorporated",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Medical Biotech",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Ginkgo Bioworks Holdings, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Synthetic Biology",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Inscripta, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Synthetic Biology",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Synthego Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Synthetic Biology",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "Zymergen Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Synthetic Biology",
+    "SECTOR": "Biotechnology"
+  },
+  {
+    "NAME": "BASF SE",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Agrochemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "BASF SE",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Industrial Chemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "BASF SE",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Petrochemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "BASF SE",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Specialty Chemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "Dow Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Industrial Chemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "Dow Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Petrochemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "Dow Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Specialty Chemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "INEOS Group",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Industrial Chemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "INEOS Group",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Petrochemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "INEOS Group",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Specialty Chemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "LG Chem",
+    "COUNTRY": "South Korea",
+    "INDUSTRY": "Industrial Chemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "LG Chem",
+    "COUNTRY": "South Korea",
+    "INDUSTRY": "Petrochemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "LG Chem",
+    "COUNTRY": "South Korea",
+    "INDUSTRY": "Specialty Chemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "SABIC",
+    "COUNTRY": "Saudi Arabia",
+    "INDUSTRY": "Industrial Chemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "SABIC",
+    "COUNTRY": "Saudi Arabia",
+    "INDUSTRY": "Petrochemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "SABIC",
+    "COUNTRY": "Saudi Arabia",
+    "INDUSTRY": "Specialty Chemicals",
+    "SECTOR": "Chemicals"
+  },
+  {
+    "NAME": "Bechtel Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Civil Engineering",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "Bechtel Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Commercial Construction",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "Bechtel Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Infrastructure Projects",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "Bechtel Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Residential Construction",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "Grupo ACS",
+    "COUNTRY": "Spain",
+    "INDUSTRY": "Civil Engineering",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "Grupo ACS",
+    "COUNTRY": "Spain",
+    "INDUSTRY": "Commercial Construction",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "Grupo ACS",
+    "COUNTRY": "Spain",
+    "INDUSTRY": "Infrastructure Projects",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "Grupo ACS",
+    "COUNTRY": "Spain",
+    "INDUSTRY": "Residential Construction",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "VINCI",
+    "COUNTRY": "France",
+    "INDUSTRY": "Civil Engineering",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "VINCI",
+    "COUNTRY": "France",
+    "INDUSTRY": "Commercial Construction",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "VINCI",
+    "COUNTRY": "France",
+    "INDUSTRY": "Infrastructure Projects",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "VINCI",
+    "COUNTRY": "France",
+    "INDUSTRY": "Residential Construction",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "Skanska",
+    "COUNTRY": "Sweden",
+    "INDUSTRY": "Civil Engineering",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "Skanska",
+    "COUNTRY": "Sweden",
+    "INDUSTRY": "Commercial Construction",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "Skanska",
+    "COUNTRY": "Sweden",
+    "INDUSTRY": "Infrastructure Projects",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "Skanska",
+    "COUNTRY": "Sweden",
+    "INDUSTRY": "Residential Construction",
+    "SECTOR": "Construction"
+  },
+  {
+    "NAME": "Chanel",
+    "COUNTRY": "France",
+    "INDUSTRY": "Luxury Goods",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "Estée Lauder Companies",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Personal Care Products",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "Hermès International",
+    "COUNTRY": "France",
+    "INDUSTRY": "Luxury Goods",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "L'Oréal",
+    "COUNTRY": "France",
+    "INDUSTRY": "Personal Care Products",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "LVMH Moët Hennessy Louis Vuitton",
+    "COUNTRY": "France",
+    "INDUSTRY": "Luxury Goods",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "Nestlé",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Packaged Goods",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "Nike, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Apparel & Footwear",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "Procter & Gamble",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Personal Care Products",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "Ralph Lauren Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Apparel & Footwear",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "Reckitt Benckiser Group",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Packaged Goods",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "Richemont",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Luxury Goods",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "The Coca-Cola Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Packaged Goods",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "The Kraft Heinz Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Packaged Goods",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "Unilever",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Packaged Goods",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "VF Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Apparel & Footwear",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "Walmart Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Packaged Goods",
+    "SECTOR": "Consumer Goods"
+  },
+  {
+    "NAME": "Coursera",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Online Education",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "edX",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Online Education",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "Khan Academy",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Online Education",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "Udemy",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Online Education",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "Harvard University",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Higher Education",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "Massachusetts Institute of Technology (MIT)",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Higher Education",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "Stanford University",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Higher Education",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "University of Oxford",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Higher Education",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "KIPP Foundation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "K-12 Schools",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "Success Academy Charter Schools",
+    "COUNTRY": "United States",
+    "INDUSTRY": "K-12 Schools",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "Uncommon Schools",
+    "COUNTRY": "United States",
+    "INDUSTRY": "K-12 Schools",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "YES Prep Public Schools",
+    "COUNTRY": "United States",
+    "INDUSTRY": "K-12 Schools",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "General Assembly",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Workforce Training",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "LinkedIn Learning",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Workforce Training",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "Pluralsight",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Workforce Training",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "Skillsoft",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Workforce Training",
+    "SECTOR": "Education"
+  },
+  {
+    "NAME": "BP plc",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Oil & Gas",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "Chevron Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Oil & Gas",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "ExxonMobil Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Oil & Gas",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "Royal Dutch Shell plc",
+    "COUNTRY": "Netherlands",
+    "INDUSTRY": "Oil & Gas",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "Duke Energy Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Electric Power",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "Électricité de France S.A. (EDF)",
+    "COUNTRY": "France",
+    "INDUSTRY": "Electric Power",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "NextEra Energy, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Electric Power",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "The Southern Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Electric Power",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "Enel S.p.A.",
+    "COUNTRY": "Italy",
+    "INDUSTRY": "Renewable Energy",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "Iberdrola, S.A.",
+    "COUNTRY": "Spain",
+    "INDUSTRY": "Renewable Energy",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "NextEra Energy, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Renewable Energy",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "Ørsted A/S",
+    "COUNTRY": "Denmark",
+    "INDUSTRY": "Renewable Energy",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "China National Nuclear Corporation (CNNC)",
+    "COUNTRY": "China",
+    "INDUSTRY": "Nuclear Energy",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "Électricité de France S.A. (EDF)",
+    "COUNTRY": "France",
+    "INDUSTRY": "Nuclear Energy",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "Rosatom State Atomic Energy Corporation",
+    "COUNTRY": "Russia",
+    "INDUSTRY": "Nuclear Energy",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "Westinghouse Electric Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Nuclear Energy",
+    "SECTOR": "Energy"
+  },
+  {
+    "NAME": "Disney",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Film & TV",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "NBCUniversal",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Film & TV",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Sony Pictures Entertainment",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Film & TV",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Warner Bros. Discovery",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Film & TV",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Sony Music Entertainment",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Music Industry",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Universal Music Group",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Music Industry",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Warner Music Group",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Music Industry",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Spotify",
+    "COUNTRY": "Sweden",
+    "INDUSTRY": "Music Industry",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Electronic Arts",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Video Games",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Nintendo",
+    "COUNTRY": "Japan",
+    "INDUSTRY": "Video Games",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Sony Interactive Entertainment",
+    "COUNTRY": "Japan",
+    "INDUSTRY": "Video Games",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Tencent Games",
+    "COUNTRY": "China",
+    "INDUSTRY": "Video Games",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Amazon Prime Video",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Streaming Services",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Disney+",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Streaming Services",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Netflix",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Streaming Services",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "HBO Max",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Streaming Services",
+    "SECTOR": "Entertainment"
+  },
+  {
+    "NAME": "Ant Group",
+    "COUNTRY": "China",
+    "INDUSTRY": "FinTech",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "Bank of America",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Banking",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "BlackRock",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Asset Management",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "Chime",
+    "COUNTRY": "United States",
+    "INDUSTRY": "FinTech",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "Fidelity Investments",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Asset Management",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "JPMorgan Chase & Co.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Banking",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "Ping An Insurance",
+    "COUNTRY": "China",
+    "INDUSTRY": "Insurance",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "Prudential plc",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Insurance",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "Revolut",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "FinTech",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "State Street Global Advisors",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Asset Management",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "The Goldman Sachs Group, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Banking",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "UnitedHealth Group",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Insurance",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "Vanguard Group",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Asset Management",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "Visa Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "FinTech",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "Wells Fargo & Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Banking",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "Zurich Insurance Group",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Insurance",
+    "SECTOR": "Financial Services"
+  },
+  {
+    "NAME": "Anheuser-Busch InBev",
+    "COUNTRY": "Belgium",
+    "INDUSTRY": "Beverage Industry",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "Coca-Cola Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Beverage Industry",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "Heineken N.V.",
+    "COUNTRY": "Netherlands",
+    "INDUSTRY": "Beverage Industry",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "PepsiCo",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Beverage Industry",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "Archer Daniels Midland Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Food Processing",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "Cargill",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Food Processing",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "JBS S.A.",
+    "COUNTRY": "Brazil",
+    "INDUSTRY": "Food Processing",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "Tyson Foods",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Food Processing",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "Conagra Brands",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Packaged Foods",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "General Mills",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Packaged Foods",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "Kraft Heinz Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Packaged Foods",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "Nestlé",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Packaged Foods",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "McDonald's Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Restaurant Chains",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "Restaurant Brands International",
+    "COUNTRY": "Canada",
+    "INDUSTRY": "Restaurant Chains",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "Starbucks Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Restaurant Chains",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "Yum! Brands",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Restaurant Chains",
+    "SECTOR": "Food & Beverage"
+  },
+  {
+    "NAME": "Cleveland Clinic",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Hospitals & Clinics",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "HCA Healthcare",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Hospitals & Clinics",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Mayo Clinic",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Hospitals & Clinics",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "UnitedHealth Group",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Hospitals & Clinics",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "AstraZeneca",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Pharmaceuticals",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Johnson & Johnson",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Pharmaceuticals",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Pfizer",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Pharmaceuticals",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Roche",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Pharmaceuticals",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Medtronic",
+    "COUNTRY": "Ireland",
+    "INDUSTRY": "Medical Devices",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Siemens Healthineers",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Medical Devices",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Stryker Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Medical Devices",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Zimmer Biomet",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Medical Devices",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Epic Systems",
+    "COUNTRY": "United States",
+    "INDUSTRY": "HealthTech",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Philips Healthcare",
+    "COUNTRY": "Netherlands",
+    "INDUSTRY": "HealthTech",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Teladoc Health",
+    "COUNTRY": "United States",
+    "INDUSTRY": "HealthTech",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Zocdoc",
+    "COUNTRY": "United States",
+    "INDUSTRY": "HealthTech",
+    "SECTOR": "Healthcare"
+  },
+  {
+    "NAME": "Hilton Hotels & Resorts",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Hotels & Resorts",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Hyatt Hotels Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Hotels & Resorts",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Marriott International",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Hotels & Resorts",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Shangri-La Hotels and Resorts",
+    "COUNTRY": "Hong Kong",
+    "INDUSTRY": "Hotels & Resorts",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "American Airlines",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Airlines",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Delta Air Lines",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Airlines",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Emirates",
+    "COUNTRY": "United Arab Emirates",
+    "INDUSTRY": "Airlines",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Singapore Airlines",
+    "COUNTRY": "Singapore",
+    "INDUSTRY": "Airlines",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Carnival Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Cruise Lines",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "MSC Cruises",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Cruise Lines",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Norwegian Cruise Line",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Cruise Lines",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Royal Caribbean International",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Cruise Lines",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Booking Holdings",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Travel Agencies",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Expedia Group",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Travel Agencies",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Trip.com Group",
+    "COUNTRY": "China",
+    "INDUSTRY": "Travel Agencies",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "TUI Group",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Travel Agencies",
+    "SECTOR": "Hospitality"
+  },
+  {
+    "NAME": "Amazon Web Services (AWS)",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Cloud Computing",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "Google Cloud",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Cloud Computing",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "IBM Cloud",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Cloud Computing",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "Microsoft Azure",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Cloud Computing",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "CrowdStrike",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Cybersecurity",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "Darktrace",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Cybersecurity",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "Palo Alto Networks",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Cybersecurity",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "Symantec Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Cybersecurity",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "Alphabet Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Artificial Intelligence",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "IBM Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Artificial Intelligence",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "Microsoft Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Artificial Intelligence",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "NVIDIA Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Artificial Intelligence",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "Adobe Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Software & IT Services",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "Oracle Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Software & IT Services",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "Salesforce Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Software & IT Services",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "SAP SE",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Software & IT Services",
+    "SECTOR": "Information Technology"
+  },
+  {
+    "NAME": "Aetna Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Health Insurance",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "Anthem, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Health Insurance",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "Cigna Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Health Insurance",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "Humana Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Health Insurance",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "MetLife, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Life Insurance",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "New York Life Insurance Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Life Insurance",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "Northwestern Mutual",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Life Insurance",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "Prudential Financial, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Life Insurance",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "Allstate Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Property & Casualty",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "Liberty Mutual Group",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Property & Casualty",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "State Farm Mutual Automobile Insurance Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Property & Casualty",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "The Travelers Companies, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Property & Casualty",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "Hannover Re",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Reinsurance",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "Munich Re",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Reinsurance",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "Swiss Re",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Reinsurance",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "The Reinsurance Group of America, Incorporated",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Reinsurance",
+    "SECTOR": "Insurance"
+  },
+  {
+    "NAME": "A.P. Moller - Maersk",
+    "COUNTRY": "Denmark",
+    "INDUSTRY": "Freight & Logistics",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "C.H. Robinson",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Freight & Logistics",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "Deutsche Post DHL Group",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Freight & Logistics",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "Kuehne + Nagel",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Freight & Logistics",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "CMA CGM Group",
+    "COUNTRY": "France",
+    "INDUSTRY": "Shipping & Maritime",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "Hapag-Lloyd",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Shipping & Maritime",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "Mediterranean Shipping Company (MSC)",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Shipping & Maritime",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "Ocean Network Express (ONE)",
+    "COUNTRY": "Japan",
+    "INDUSTRY": "Shipping & Maritime",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "BNSF Railway",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Rail Freight",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "Canadian National Railway",
+    "COUNTRY": "Canada",
+    "INDUSTRY": "Rail Freight",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "CSX Transportation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Rail Freight",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "Union Pacific Railroad",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Rail Freight",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "Cathay Pacific Cargo",
+    "COUNTRY": "Hong Kong",
+    "INDUSTRY": "Air Cargo",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "Emirates SkyCargo",
+    "COUNTRY": "United Arab Emirates",
+    "INDUSTRY": "Air Cargo",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "FedEx Express",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Air Cargo",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "UPS Airlines",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Air Cargo",
+    "SECTOR": "Logistics & Transportation"
+  },
+  {
+    "NAME": "Bosch Rexroth",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Industrial Machinery",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Caterpillar Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Industrial Machinery",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Deere & Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Industrial Machinery",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Komatsu Ltd.",
+    "COUNTRY": "Japan",
+    "INDUSTRY": "Industrial Machinery",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Foxconn (Hon Hai Precision Industry Co., Ltd.)",
+    "COUNTRY": "Taiwan",
+    "INDUSTRY": "Electronics Manufacturing",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Flex Ltd.",
+    "COUNTRY": "Singapore",
+    "INDUSTRY": "Electronics Manufacturing",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Jabil Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Electronics Manufacturing",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Pegatron Corporation",
+    "COUNTRY": "Taiwan",
+    "INDUSTRY": "Electronics Manufacturing",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "ABB Ltd.",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Factory Automation",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Emerson Electric Co.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Factory Automation",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Rockwell Automation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Factory Automation",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Siemens AG",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "Factory Automation",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Intel Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Semiconductors",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "NVIDIA Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Semiconductors",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Samsung Electronics Co., Ltd.",
+    "COUNTRY": "South Korea",
+    "INDUSTRY": "Semiconductors",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+    "COUNTRY": "Taiwan",
+    "INDUSTRY": "Semiconductors",
+    "SECTOR": "Manufacturing"
+  },
+  {
+    "NAME": "BuzzFeed",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Digital Media",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "HuffPost",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Digital Media",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "Vice Media",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Digital Media",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "Vox Media",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Digital Media",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "The New York Times Company",
+    "COUNTRY": "United States",
+    "INDUSTRY": "News & Journalism",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "Gannett Company, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "News & Journalism",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "News Corp",
+    "COUNTRY": "United States",
+    "INDUSTRY": "News & Journalism",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "Thomson Reuters",
+    "COUNTRY": "Canada",
+    "INDUSTRY": "News & Journalism",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "Penguin Random House",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Book Publishing",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "Hachette Livre",
+    "COUNTRY": "France",
+    "INDUSTRY": "Book Publishing",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "HarperCollins",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Book Publishing",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "Macmillan Publishers",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Book Publishing",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "BBC",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Broadcasting",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "CBS Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Broadcasting",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "NBCUniversal",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Broadcasting",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "Sinclair Broadcast Group",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Broadcasting",
+    "SECTOR": "Media & Publishing"
+  },
+  {
+    "NAME": "ArcelorMittal",
+    "COUNTRY": "Luxembourg",
+    "INDUSTRY": "Steel & Aluminum",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "China Baowu Steel Group",
+    "COUNTRY": "China",
+    "INDUSTRY": "Steel & Aluminum",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "Nippon Steel Corporation",
+    "COUNTRY": "Japan",
+    "INDUSTRY": "Steel & Aluminum",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "Rio Tinto",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Steel & Aluminum",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "Barrick Gold Corporation",
+    "COUNTRY": "Canada",
+    "INDUSTRY": "Precious Metals",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "Newmont Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Precious Metals",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "AngloGold Ashanti",
+    "COUNTRY": "South Africa",
+    "INDUSTRY": "Precious Metals",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "Kinross Gold Corporation",
+    "COUNTRY": "Canada",
+    "INDUSTRY": "Precious Metals",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "China Northern Rare Earth Group High-Tech Co., Ltd.",
+    "COUNTRY": "China",
+    "INDUSTRY": "Rare Earth Elements",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "Lynas Rare Earths",
+    "COUNTRY": "Australia",
+    "INDUSTRY": "Rare Earth Elements",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "MP Materials Corp.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Rare Earth Elements",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "Iluka Resources",
+    "COUNTRY": "Australia",
+    "INDUSTRY": "Rare Earth Elements",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "China Shenhua Energy Company",
+    "COUNTRY": "China",
+    "INDUSTRY": "Coal & Minerals",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "Glencore",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Coal & Minerals",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "BHP Group",
+    "COUNTRY": "Australia",
+    "INDUSTRY": "Coal & Minerals",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "Anglo American plc",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Coal & Minerals",
+    "SECTOR": "Mining & Metals"
+  },
+  {
+    "NAME": "Pfizer Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Biopharmaceuticals",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Johnson & Johnson",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Biopharmaceuticals",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Roche Holding AG",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Biopharmaceuticals",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Novartis AG",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Biopharmaceuticals",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Teva Pharmaceutical Industries Ltd.",
+    "COUNTRY": "Israel",
+    "INDUSTRY": "Generic Drugs",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Sandoz (a Novartis division)",
+    "COUNTRY": "Switzerland",
+    "INDUSTRY": "Generic Drugs",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Mylan N.V. (now part of Viatris)",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Generic Drugs",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Sun Pharmaceutical Industries Ltd.",
+    "COUNTRY": "India",
+    "INDUSTRY": "Generic Drugs",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "GlaxoSmithKline plc (GSK)",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Vaccines",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Sanofi S.A.",
+    "COUNTRY": "France",
+    "INDUSTRY": "Vaccines",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Merck & Co., Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Vaccines",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Moderna, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Vaccines",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Johnson & Johnson",
+    "COUNTRY": "United States",
+    "INDUSTRY": "OTC Medicines",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Bayer AG",
+    "COUNTRY": "Germany",
+    "INDUSTRY": "OTC Medicines",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Reckitt Benckiser Group plc",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "OTC Medicines",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "Procter & Gamble Co.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "OTC Medicines",
+    "SECTOR": "Pharmaceuticals"
+  },
+  {
+    "NAME": "CBRE Group",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Commercial Real Estate",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Cushman & Wakefield",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Commercial Real Estate",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "JLL (Jones Lang LaSalle)",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Commercial Real Estate",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Savills",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Commercial Real Estate",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Coldwell Banker",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Residential Real Estate",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Keller Williams Realty",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Residential Real Estate",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "RE/MAX",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Residential Real Estate",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Zillow Group",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Residential Real Estate",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Brookfield Asset Management",
+    "COUNTRY": "Canada",
+    "INDUSTRY": "Property Development",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Country Garden Holdings",
+    "COUNTRY": "China",
+    "INDUSTRY": "Property Development",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Dalian Wanda Group",
+    "COUNTRY": "China",
+    "INDUSTRY": "Property Development",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Mitsui Fudosan",
+    "COUNTRY": "Japan",
+    "INDUSTRY": "Property Development",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "American Tower Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "REITs",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Equity Residential",
+    "COUNTRY": "United States",
+    "INDUSTRY": "REITs",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Prologis",
+    "COUNTRY": "United States",
+    "INDUSTRY": "REITs",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Simon Property Group",
+    "COUNTRY": "United States",
+    "INDUSTRY": "REITs",
+    "SECTOR": "Real Estate"
+  },
+  {
+    "NAME": "Alibaba Group",
+    "COUNTRY": "China",
+    "INDUSTRY": "E-commerce",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Amazon",
+    "COUNTRY": "United States",
+    "INDUSTRY": "E-commerce",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "eBay",
+    "COUNTRY": "United States",
+    "INDUSTRY": "E-commerce",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "JD.com",
+    "COUNTRY": "China",
+    "INDUSTRY": "E-commerce",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Carrefour",
+    "COUNTRY": "France",
+    "INDUSTRY": "Supermarkets",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Kroger",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Supermarkets",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Tesco",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Supermarkets",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Walmart",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Supermarkets",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Chanel",
+    "COUNTRY": "France",
+    "INDUSTRY": "Luxury Retail",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Gucci",
+    "COUNTRY": "Italy",
+    "INDUSTRY": "Luxury Retail",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "LVMH",
+    "COUNTRY": "France",
+    "INDUSTRY": "Luxury Retail",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Prada",
+    "COUNTRY": "Italy",
+    "INDUSTRY": "Luxury Retail",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Harrods",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Department Stores",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Macy's",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Department Stores",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Nordstrom",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Department Stores",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Saks Fifth Avenue",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Department Stores",
+    "SECTOR": "Retail"
+  },
+  {
+    "NAME": "Verizon Communications",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Mobile Networks",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "AT&T Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Mobile Networks",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "Vodafone Group",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Mobile Networks",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "China Mobile",
+    "COUNTRY": "China",
+    "INDUSTRY": "Mobile Networks",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "Comcast Corporation",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Broadband Providers",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "Charter Communications",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Broadband Providers",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "Nippon Telegraph and Telephone Corporation (NTT)",
+    "COUNTRY": "Japan",
+    "INDUSTRY": "Broadband Providers",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "BT Group",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Broadband Providers",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "Huawei Technologies Co., Ltd.",
+    "COUNTRY": "China",
+    "INDUSTRY": "5G Infrastructure",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "Ericsson",
+    "COUNTRY": "Sweden",
+    "INDUSTRY": "5G Infrastructure",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "Nokia Corporation",
+    "COUNTRY": "Finland",
+    "INDUSTRY": "5G Infrastructure",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "Qualcomm Incorporated",
+    "COUNTRY": "United States",
+    "INDUSTRY": "5G Infrastructure",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "SpaceX (Starlink)",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Satellite Internet",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "OneWeb",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Satellite Internet",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "Viasat Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Satellite Internet",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "Amazon (Project Kuiper)",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Satellite Internet",
+    "SECTOR": "Telecommunications"
+  },
+  {
+    "NAME": "Duke Energy",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Electric Utilities",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "EDF (Électricité de France)",
+    "COUNTRY": "France",
+    "INDUSTRY": "Electric Utilities",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "Enel",
+    "COUNTRY": "Italy",
+    "INDUSTRY": "Electric Utilities",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "NextEra Energy",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Electric Utilities",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "China National Petroleum Corporation (CNPC)",
+    "COUNTRY": "China",
+    "INDUSTRY": "Natural Gas Utilities",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "Gazprom",
+    "COUNTRY": "Russia",
+    "INDUSTRY": "Natural Gas Utilities",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "Sempra Energy",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Natural Gas Utilities",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "TC Energy",
+    "COUNTRY": "Canada",
+    "INDUSTRY": "Natural Gas Utilities",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "American Water Works",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Water Utilities",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "Severn Trent",
+    "COUNTRY": "United Kingdom",
+    "INDUSTRY": "Water Utilities",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "Suez",
+    "COUNTRY": "France",
+    "INDUSTRY": "Water Utilities",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "Veolia",
+    "COUNTRY": "France",
+    "INDUSTRY": "Water Utilities",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "Republic Services",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Waste Management",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "SUEZ Recycling & Recovery",
+    "COUNTRY": "France",
+    "INDUSTRY": "Waste Management",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "Veolia Environmental Services",
+    "COUNTRY": "France",
+    "INDUSTRY": "Waste Management",
+    "SECTOR": "Utilities"
+  },
+  {
+    "NAME": "Waste Management, Inc.",
+    "COUNTRY": "United States",
+    "INDUSTRY": "Waste Management",
+    "SECTOR": "Utilities"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "NAME": "Charles W. Scharf",
+    "GENDER": "Male",
+    "DOB": "1965-04-24",
+    "ROLE": "Chief Executive Officer"
+  },
+  {
+    "NAME": "Michael P. Santomassimo",
+    "GENDER": "Male",
+    "DOB": "1970-01-15",
+    "ROLE": "Chief Financial Officer"
+  },
+  {
+    "NAME": "Derek A. Flowers",
+    "GENDER": "Male",
+    "DOB": "1978-09-10",
+    "ROLE": "Chief Risk Officer"
+  },
+  {
+    "NAME": "Scott E. Powell",
+    "GENDER": "Male",
+    "DOB": "1975-03-22",
+    "ROLE": "Chief Operating Officer"
+  },
+  {
+    "NAME": "Barry Sommers",
+    "GENDER": "Male",
+    "DOB": "1968-11-05",
+    "ROLE": "Chief Executive Officer, Wealth & Investment Management"
+  },
+  {
+    "NAME": "Kristy Fercho",
+    "GENDER": "Female",
+    "DOB": "1980-07-18",
+    "ROLE": "Head of Diverse Segments, Representation and Inclusion"
+  },
+  {
+    "NAME": "Ather Williams III",
+    "GENDER": "Male",
+    "DOB": "1972-02-28",
+    "ROLE": "Head of Strategy, Digital, and Innovation"
+  },
+  {
+    "NAME": "Bridget Engle",
+    "GENDER": "Female",
+    "DOB": "1982-06-12",
+    "ROLE": "Head of Technology"
+  },
+  {
+    "NAME": "Fernando Rivas",
+    "GENDER": "Male",
+    "DOB": "1980-12-01",
+    "ROLE": "Head of Investment Banking"
+  },
+  {
+    "NAME": "Alison S. Singer",
+    "GENDER": "Female",
+    "DOB": "1974-05-19",
+    "ROLE": "Head of Operations and Technology, Corporate & Investment Banking"
+  }
+]

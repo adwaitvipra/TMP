@@ -1,0 +1,153 @@
+{
+  "Aerospace & Defense": [
+    "Aircraft Manufacturing",
+    "Defense Contractors",
+    "Military Systems",
+    "Space Exploration"
+  ],
+  "Agriculture": [
+    "Agribusiness",
+    "Precision Agriculture",
+    "Agrochemicals",
+    "Seed & Fertilizer"
+  ],
+  "Automotive": [
+    "Automakers",
+    "Electric Vehicles",
+    "Auto Parts & Suppliers",
+    "Mobility Services"
+  ],
+  "Biotechnology": [
+    "Biopharmaceuticals",
+    "Genomics",
+    "Medical Biotech",
+    "Synthetic Biology"
+  ],
+  "Chemicals": [
+    "Industrial Chemicals",
+    "Petrochemicals",
+    "Specialty Chemicals",
+    "Agrochemicals"
+  ],
+  "Construction": [
+    "Commercial Construction",
+    "Residential Construction",
+    "Infrastructure Projects",
+    "Civil Engineering"
+  ],
+  "Consumer Goods": [
+    "Apparel & Footwear",
+    "Luxury Goods",
+    "Packaged Goods",
+    "Personal Care Products"
+  ],
+  "Education": [
+    "Higher Education",
+    "K-12 Schools",
+    "Online Education",
+    "Workforce Training"
+  ],
+  "Energy": [
+    "Oil & Gas",
+    "Renewable Energy",
+    "Nuclear Energy",
+    "Electric Power"
+  ],
+  "Entertainment": [
+    "Film & TV",
+    "Music Industry",
+    "Video Games",
+    "Streaming Services"
+  ],
+  "Financial Services": [
+    "Banking",
+    "FinTech",
+    "Asset Management",
+    "Insurance"
+  ],
+  "Food & Beverage": [
+    "Food Processing",
+    "Beverage Industry",
+    "Restaurant Chains",
+    "Packaged Foods"
+  ],
+  "Healthcare": [
+    "Hospitals & Clinics",
+    "Pharmaceuticals",
+    "Medical Devices",
+    "HealthTech"
+  ],
+  "Hospitality": [
+    "Hotels & Resorts",
+    "Airlines",
+    "Cruise Lines",
+    "Travel Agencies"
+  ],
+  "Information Technology": [
+    "Software & IT Services",
+    "Cloud Computing",
+    "Cybersecurity",
+    "Artificial Intelligence"
+  ],
+  "Insurance": [
+    "Health Insurance",
+    "Life Insurance",
+    "Property & Casualty",
+    "Reinsurance"
+  ],
+  "Logistics & Transportation": [
+    "Freight & Logistics",
+    "Shipping & Maritime",
+    "Rail Freight",
+    "Air Cargo"
+  ],
+  "Manufacturing": [
+    "Industrial Machinery",
+    "Electronics Manufacturing",
+    "Factory Automation",
+    "Semiconductors"
+  ],
+  "Media & Publishing": [
+    "Digital Media",
+    "News & Journalism",
+    "Book Publishing",
+    "Broadcasting"
+  ],
+  "Mining & Metals": [
+    "Steel & Aluminum",
+    "Precious Metals",
+    "Rare Earth Elements",
+    "Coal & Minerals"
+  ],
+  "Pharmaceuticals": [
+    "Biopharmaceuticals",
+    "Generic Drugs",
+    "Vaccines",
+    "OTC Medicines"
+  ],
+  "Real Estate": [
+    "Commercial Real Estate",
+    "Residential Real Estate",
+    "Property Development",
+    "REITs"
+  ],
+  "Retail": [
+    "E-commerce",
+    "Supermarkets",
+    "Luxury Retail",
+    "Department Stores"
+  ],
+  "Telecommunications": [
+    "Mobile Networks",
+    "Broadband Providers",
+    "5G Infrastructure",
+    "Satellite Internet"
+  ],
+  "Utilities": [
+    "Electric Utilities",
+    "Natural Gas Utilities",
+    "Water Utilities",
+    "Waste Management"
+  ]
+}
+

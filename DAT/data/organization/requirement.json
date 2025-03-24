@@ -1,0 +1,170 @@
+{
+  "Aerospace & Defense": [
+    "Defense contract financing",
+    "Export credit",
+    "Liability insurance",
+    "Long-term capital",
+    "Military R&D investment",
+    "Supply chain resilience funds"
+  ],
+  "Agriculture": [
+    "Precision farming funds",
+    "Crop insurance",
+    "Storage & transport loans",
+    "Agri-tech innovation grants",
+    "Sustainable farming subsidies",
+    "Equipment financing"
+  ],
+  "Automotive": [
+    "EV battery R&D",
+    "Autonomous vehicle research",
+    "Manufacturing automation funds",
+    "Sustainable mobility investment",
+    "Supply chain financing",
+    "Emission reduction grants"
+  ],
+  "Biotechnology": [
+    "Clinical trial funding",
+    "AI-driven drug discovery",
+    "Regulatory compliance funds",
+    "Venture capital for biotech",
+    "Genomic research investment",
+    "Biopharma expansion financing"
+  ],
+  "Chemicals": [
+    "Environmental compliance",
+    "Sustainable production funds",
+    "Chemical safety R&D",
+    "Renewable chemical innovation",
+    "Hazardous waste management funds",
+    "Supply chain modernization"
+  ],
+  "Construction": [
+    "Smart construction tech",
+    "Public-private funds",
+    "Green building investment",
+    "Infrastructure financing",
+    "Equipment leasing",
+    "Workforce training programs"
+  ],
+  "Consumer Goods": [
+    "E-commerce investment",
+    "Sustainable packaging",
+    "Retail automation funds",
+    "Supply chain financing",
+    "Brand development capital",
+    "Circular economy initiatives"
+  ],
+  "Education": [
+    "Digital learning funds",
+    "Workforce development",
+    "EdTech innovation investment",
+    "Higher education infrastructure",
+    "Scholarship & grant programs",
+    "Teacher training funds"
+  ],
+  "Energy": [
+    "Renewable energy capital",
+    "Grid modernization",
+    "Energy storage investment",
+    "Oil & gas infrastructure funds",
+    "Nuclear energy financing",
+    "Smart grid technology support"
+  ],
+  "Entertainment": [
+    "Streaming platform funds",
+    "Live event financing",
+    "Content production investment",
+    "Media tech innovation",
+    "IP protection financing",
+    "Digital distribution funds"
+  ],
+  "Financial Services": [
+    "FinTech funding",
+    "Cybersecurity investments",
+    "Blockchain infrastructure",
+    "Wealth management expansion",
+    "AI-driven risk analysis",
+    "Regulatory compliance costs"
+  ],
+  "Healthcare": [
+    "Telemedicine financing",
+    "AI in healthcare",
+    "Hospital infrastructure funds",
+    "Pharma R&D capital",
+    "Medical device innovation",
+    "Healthcare workforce training"
+  ],
+  "Hospitality": [
+    "Sustainable tourism funds",
+    "Hotel & resort renovation loans",
+    "Airline fleet modernization",
+    "Cruise line sustainability funds",
+    "Travel tech investment",
+    "Event & conference infrastructure"
+  ],
+  "Information Technology": [
+    "AI & ML R&D",
+    "Cloud infrastructure",
+    "Quantum computing investment",
+    "Cyber resilience financing",
+    "Big data analytics funds",
+    "Software innovation grants"
+  ],
+  "Insurance": [
+    "Cyber insurance funds",
+    "Claims automation",
+    "Regulatory compliance funds",
+    "Reinsurance capital",
+    "Risk mitigation investment",
+    "AI-driven underwriting"
+  ],
+  "Logistics & Transportation": [
+    "Green logistics investment",
+    "Fleet leasing funds",
+    "Smart warehouse financing",
+    "Port & terminal modernization",
+    "Autonomous delivery investment",
+    "Supply chain resilience capital"
+  ],
+  "Manufacturing": [
+    "Factory automation funds",
+    "New materials R&D",
+    "Smart manufacturing investment",
+    "Supply chain optimization funds",
+    "Industrial robotics financing",
+    "Workforce training grants"
+  ],
+  "Real Estate": [
+    "Smart city infrastructure",
+    "Urban redevelopment",
+    "Affordable housing development",
+    "Commercial property investment",
+    "Green building technology",
+    "Property management automation"
+  ],
+  "Retail": [
+    "Omnichannel retail funds",
+    "Franchise expansion",
+    "Digital payments infrastructure",
+    "Customer experience tech",
+    "Supply chain automation",
+    "Brand innovation capital"
+  ],
+  "Telecommunications": [
+    "5G infrastructure funds",
+    "Spectrum licensing",
+    "Satellite internet expansion",
+    "Broadband network development",
+    "Cybersecurity in telecom",
+    "IoT connectivity financing"
+  ],
+  "Utilities": [
+    "Renewable integration",
+    "Smart water systems",
+    "Energy efficiency programs",
+    "Grid resilience funding",
+    "Waste management innovation",
+    "Infrastructure modernization"
+  ]
+}

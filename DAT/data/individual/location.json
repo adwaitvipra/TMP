@@ -1,0 +1,559 @@
+{
+  "United States": {
+    "Alabama": [
+      "Jefferson",
+      "Madison",
+      "Mobile",
+      "Montgomery",
+      "Tuscaloosa"
+    ],
+    "Alaska": [
+      "Anchorage",
+      "Fairbanks North Star",
+      "Matanuska-Susitna",
+      "Kenai Peninsula",
+      "Juneau"
+    ],
+    "Arizona": [
+      "Maricopa",
+      "Pima",
+      "Pinal",
+      "Yavapai",
+      "Coconino"
+    ],
+    "Arkansas": [
+      "Pulaski",
+      "Benton",
+      "Washington",
+      "Faulkner",
+      "Saline"
+    ],
+    "California": [
+      "Los Angeles",
+      "San Francisco",
+      "San Diego",
+      "Orange",
+      "Alameda"
+    ],
+    "Colorado": [
+      "Denver",
+      "Arapahoe",
+      "Boulder",
+      "El Paso",
+      "Jefferson"
+    ],
+    "Connecticut": [
+      "Fairfield",
+      "Hartford",
+      "New Haven",
+      "Litchfield",
+      "Middlesex"
+    ],
+    "Delaware": [
+      "New Castle",
+      "Kent",
+      "Sussex"
+    ],
+    "Florida": [
+      "Miami-Dade",
+      "Broward",
+      "Palm Beach",
+      "Orange",
+      "Hillsborough"
+    ],
+    "Georgia": [
+      "Fulton",
+      "Cobb",
+      "DeKalb",
+      "Gwinnett",
+      "Chatham"
+    ],
+    "Hawaii": [
+      "Honolulu",
+      "Hawaii",
+      "Maui",
+      "Kauai"
+    ],
+    "Idaho": [
+      "Ada",
+      "Canyon",
+      "Bonneville",
+      "Kootenai",
+      "Bannock"
+    ],
+    "Illinois": [
+      "Cook",
+      "DuPage",
+      "Lake",
+      "Will",
+      "Kane"
+    ],
+    "Indiana": [
+      "Marion",
+      "Lake",
+      "Allen",
+      "Hamilton",
+      "Johnson"
+    ],
+    "Iowa": [
+      "Polk",
+      "Linn",
+      "Johnson",
+      "Dallas",
+      "Story"
+    ],
+    "Kansas": [
+      "Johnson",
+      "Sedgwick",
+      "Shawnee",
+      "Douglas",
+      "Wyandotte"
+    ],
+    "Kentucky": [
+      "Jefferson",
+      "Fayette",
+      "Boone",
+      "Kenton",
+      "Laurel"
+    ],
+    "Louisiana": [
+      "East Baton Rouge",
+      "Orleans",
+      "Jefferson",
+      "Caddo",
+      "Lafayette"
+    ],
+    "Maine": [
+      "Cumberland",
+      "York",
+      "Penobscot",
+      "Kennebec",
+      "Androscoggin"
+    ],
+    "Maryland": [
+      "Montgomery",
+      "Prince George's",
+      "Baltimore",
+      "Howard",
+      "Anne Arundel"
+    ],
+    "Massachusetts": [
+      "Suffolk",
+      "Middlesex",
+      "Essex",
+      "Bristol",
+      "Worcester"
+    ],
+    "Michigan": [
+      "Wayne",
+      "Oakland",
+      "Macomb",
+      "Kent",
+      "Genesee"
+    ],
+    "Minnesota": [
+      "Hennepin",
+      "Ramsey",
+      "Dakota",
+      "Anoka",
+      "Olmsted"
+    ],
+    "Mississippi": [
+      "Hinds",
+      "DeSoto",
+      "Madison",
+      "Rankin",
+      "Lafayette"
+    ],
+    "Missouri": [
+      "St. Louis",
+      "Jackson",
+      "St. Charles",
+      "Clay",
+      "Greene"
+    ],
+    "Montana": [
+      "Yellowstone",
+      "Missoula",
+      "Gallatin",
+      "Cascade",
+      "Flathead"
+    ],
+    "Nebraska": [
+      "Douglas",
+      "Lancaster",
+      "Sarpy",
+      "Buffalo",
+      "Hall"
+    ],
+    "Nevada": [
+      "Clark",
+      "Washoe",
+      "Elko",
+      "Lyon",
+      "Douglas"
+    ],
+    "New Hampshire": [
+      "Hillsborough",
+      "Merrimack",
+      "Rockingham",
+      "Strafford",
+      "Cheshire"
+    ],
+    "New Jersey": [
+      "Bergen",
+      "Essex",
+      "Middlesex",
+      "Hudson",
+      "Monmouth"
+    ],
+    "New Mexico": [
+      "Bernalillo",
+      "Dona Ana",
+      "Santa Fe",
+      "Sandoval",
+      "Rio Arriba"
+    ],
+    "New York": [
+      "New York",
+      "Kings",
+      "Queens",
+      "Suffolk",
+      "Bronx"
+    ],
+    "North Carolina": [
+      "Mecklenburg",
+      "Wake",
+      "Guilford",
+      "Durham",
+      "Forsyth"
+    ],
+    "North Dakota": [
+      "Cass",
+      "Burleigh",
+      "Grand Forks",
+      "Ward",
+      "Morton"
+    ],
+    "Ohio": [
+      "Cuyahoga",
+      "Franklin",
+      "Hamilton",
+      "Summit",
+      "Montgomery"
+    ],
+    "Oklahoma": [
+      "Oklahoma",
+      "Cleveland",
+      "Tulsa",
+      "Canadian",
+      "Norman"
+    ],
+    "Oregon": [
+      "Multnomah",
+      "Washington",
+      "Clackamas",
+      "Lane",
+      "Marion"
+    ],
+    "Pennsylvania": [
+      "Philadelphia",
+      "Allegheny",
+      "Montgomery",
+      "Bucks",
+      "Delaware"
+    ],
+    "Rhode Island": [
+      "Providence",
+      "Kent",
+      "Bristol",
+      "Newport",
+      "Washington"
+    ],
+    "South Carolina": [
+      "Greenville",
+      "Richland",
+      "Charleston",
+      "Spartanburg",
+      "Beaufort"
+    ],
+    "South Dakota": [
+      "Minnehaha",
+      "Pennington",
+      "Lincoln",
+      "Brown",
+      "Davison"
+    ],
+    "Tennessee": [
+      "Davidson",
+      "Shelby",
+      "Knox",
+      "Hamilton",
+      "Williamson"
+    ],
+    "Texas": [
+      "Harris",
+      "Dallas",
+      "Tarrant",
+      "Bexar",
+      "Travis"
+    ],
+    "Utah": [
+      "Salt Lake",
+      "Utah",
+      "Davis",
+      "Weber",
+      "Tooele"
+    ],
+    "Vermont": [
+      "Chittenden",
+      "Rutland",
+      "Washington",
+      "Addison",
+      "Franklin"
+    ],
+    "Virginia": [
+      "Fairfax",
+      "Prince William",
+      "Loudoun",
+      "Chesterfield",
+      "Henrico"
+    ],
+    "Washington": [
+      "King",
+      "Pierce",
+      "Snohomish",
+      "Spokane",
+      "Clark"
+    ],
+    "West Virginia": [
+      "Kanawha",
+      "Monongalia",
+      "Berkeley",
+      "Harrison",
+      "Jefferson"
+    ],
+    "Wisconsin": [
+      "Milwaukee",
+      "Dane",
+      "Waukesha",
+      "Brown",
+      "Kenosha"
+    ],
+    "Wyoming": [
+      "Laramie",
+      "Natrona",
+      "Albany",
+      "Campbell",
+      "Sweetwater"
+    ]
+  },
+  "India": {
+    "Andaman and Nicobar Islands": [
+      "Nicobar",
+      "South Andaman"
+    ],
+    "Andhra Pradesh": [
+      "Chittoor",
+      "East Godavari",
+      "Guntur",
+      "Krishna",
+      "Visakhapatnam"
+    ],
+    "Arunachal Pradesh": [
+      "Papum Pare",
+      "Tawang",
+      "West Kameng"
+    ],
+    "Assam": [
+      "Barpeta",
+      "Dibrugarh",
+      "Kamrup",
+      "Jorhat",
+      "Guwahati"
+    ],
+    "Bihar": [
+      "Patna",
+      "Gaya",
+      "Muzaffarpur",
+      "Bhagalpur",
+      "Purnia"
+    ],
+    "Chandigarh": [
+      "Chandigarh"
+    ],
+    "Chhattisgarh": [
+      "Raipur",
+      "Bilaspur",
+      "Durg",
+      "Korba",
+      "Rajnandgaon"
+    ],
+    "Dadra and Nagar Haveli and Daman and Diu": [
+      "Dadra",
+      "Daman"
+    ],
+    "Delhi": [
+      "Central Delhi",
+      "South Delhi",
+      "North Delhi",
+      "New Delhi",
+      "West Delhi"
+    ],
+    "Goa": [
+      "North Goa",
+      "South Goa"
+    ],
+    "Gujarat": [
+      "Ahmedabad",
+      "Surat",
+      "Vadodara",
+      "Rajkot",
+      "Gandhinagar"
+    ],
+    "Haryana": [
+      "Gurugram",
+      "Faridabad",
+      "Ambala",
+      "Karnal",
+      "Hisar"
+    ],
+    "Himachal Pradesh": [
+      "Shimla",
+      "Kullu",
+      "Kangra",
+      "Mandi",
+      "Solan"
+    ],
+    "Jharkhand": [
+      "Ranchi",
+      "Jamshedpur",
+      "Dhanbad",
+      "Giridih",
+      "Hazaribagh"
+    ],
+    "Karnataka": [
+      "Bengaluru Urban",
+      "Mysuru",
+      "Hubli-Dharwad",
+      "Belagavi",
+      "Dakshina Kannada"
+    ],
+    "Kerala": [
+      "Thiruvananthapuram",
+      "Kochi",
+      "Kozhikode",
+      "Thrissur",
+      "Malappuram"
+    ],
+    "Madhya Pradesh": [
+      "Bhopal",
+      "Indore",
+      "Gwalior",
+      "Ujjain",
+      "Jabalpur"
+    ],
+    "Maharashtra": [
+      "Mumbai",
+      "Pune",
+      "Nagpur",
+      "Nashik",
+      "Thane"
+    ],
+    "Manipur": [
+      "Imphal West",
+      "Imphal East",
+      "Bishnupur",
+      "Thoubal",
+      "Churachandpur"
+    ],
+    "Meghalaya": [
+      "East Khasi Hills",
+      "West Khasi Hills",
+      "Jaintia Hills",
+      "Ri-Bhoi"
+    ],
+    "Mizoram": [
+      "Aizawl",
+      "Lunglei",
+      "Champhai",
+      "Serchhip"
+    ],
+    "Nagaland": [
+      "Kohima",
+      "Dimapur",
+      "Mokokchung",
+      "Mon",
+      "Tuensang"
+    ],
+    "Odisha": [
+      "Cuttack",
+      "Bhubaneswar",
+      "Rourkela",
+      "Sambalpur",
+      "Berhampur"
+    ],
+    "Puducherry": [
+      "Puducherry"
+    ],
+    "Punjab": [
+      "Ludhiana",
+      "Amritsar",
+      "Chandigarh",
+      "Patiala",
+      "Jalandhar"
+    ],
+    "Rajasthan": [
+      "Jaipur",
+      "Udaipur",
+      "Jodhpur",
+      "Kota",
+      "Ajmer"
+    ],
+    "Sikkim": [
+      "East Sikkim",
+      "West Sikkim",
+      "South Sikkim"
+    ],
+    "Tamil Nadu": [
+      "Chennai",
+      "Coimbatore",
+      "Madurai",
+      "Tiruchirappalli",
+      "Salem"
+    ],
+    "Telangana": [
+      "Hyderabad",
+      "Khammam",
+      "Warangal",
+      "Nalgonda",
+      "Karimnagar"
+    ],
+    "Tripura": [
+      "Agartala",
+      "West Tripura",
+      "Sepahijala"
+    ],
+    "Uttar Pradesh": [
+      "Lucknow",
+      "Kanpur",
+      "Varanasi",
+      "Agra",
+      "Allahabad"
+    ],
+    "Uttarakhand": [
+      "Dehradun",
+      "Haridwar",
+      "Nainital",
+      "Pauri Garhwal",
+      "Udham Singh Nagar"
+    ],
+    "West Bengal": [
+      "Kolkata",
+      "Howrah",
+      "North 24 Parganas",
+      "Midnapore",
+      "Asansol"
+    ]
+  }
+}

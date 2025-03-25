@@ -1,0 +1,125 @@
+[
+  {
+    "category": "Asset & Wealth Management",
+    "services": [
+      "Corporate Trust Services",
+      "Endowment Fund Management",
+      "ESG & Impact Investing",
+      "Institutional Investment Advisory",
+      "Pension Fund Management",
+      "Private Equity Fund Services",
+      "Real Estate Investment Advisory"
+    ]
+  },
+  {
+    "category": "Corporate Banking",
+    "services": [
+      "Corporate Checking Accounts",
+      "Corporate Savings Accounts",
+      "Escrow Services",
+      "Foreign Currency Accounts",
+      "Merchant Services",
+      "Payroll Management",
+      "Virtual Accounts"
+    ]
+  },
+  {
+    "category": "Foreign Exchange & Hedging",
+    "services": [
+      "Commodity Hedging",
+      "Currency Swaps",
+      "FX Derivatives",
+      "FX Risk Advisory",
+      "Interest Rate Swaps",
+      "Options Hedging",
+      "Spot FX Transactions",
+      "Structured FX Products"
+    ]
+  },
+  {
+    "category": "Investment Banking",
+    "services": [
+      "Debt Capital Markets",
+      "Equity Capital Markets",
+      "IPO Advisory",
+      "Leveraged Finance",
+      "Mezzanine Financing",
+      "Mergers & Acquisitions Advisory",
+      "Private Placements",
+      "Project Finance",
+      "Securitization",
+      "Structured Finance",
+      "Venture Capital Advisory"
+    ]
+  },
+  {
+    "category": "Lending & Credit",
+    "services": [
+      "Asset-Based Lending",
+      "Bridge Financing",
+      "Commercial Real Estate Loans",
+      "Corporate Loans",
+      "Equipment Financing",
+      "Letters of Credit",
+      "Revolving Credit Facilities",
+      "Syndicated Loans",
+      "Term Loans",
+      "Trade Finance",
+      "Working Capital Loans"
+    ]
+  },
+  {
+    "category": "Risk Management & Insurance",
+    "services": [
+      "Cyber Risk Insurance",
+      "Directors & Officers (D&O) Insurance",
+      "Enterprise Risk Management",
+      "Hedging Solutions",
+      "Political Risk Insurance",
+      "Supply Chain Risk Management",
+      "Trade Credit Insurance"
+    ]
+  },
+  {
+    "category": "Technology & Digital Banking",
+    "services": [
+      "AI-Powered Financial Insights",
+      "API Banking",
+      "Automated Reconciliation",
+      "Blockchain-Based Payments",
+      "Cloud-Based Treasury Solutions",
+      "Digital Wallets for Corporates",
+      "Open Banking Solutions",
+      "Real-Time Payment Processing"
+    ]
+  },
+  {
+    "category": "Trade Finance",
+    "services": [
+      "Documentary Collections",
+      "Export Financing",
+      "Factoring",
+      "Forfaiting",
+      "Import Financing",
+      "Inventory Finance",
+      "Reverse Factoring",
+      "Standby Letters of Credit",
+      "Supply Chain Finance"
+    ]
+  },
+  {
+    "category": "Treasury & Cash Management",
+    "services": [
+      "Cash Flow Forecasting",
+      "Cash Pooling",
+      "Cross-Border Payments",
+      "Fraud Prevention Services",
+      "Intercompany Netting",
+      "Liquidity Management",
+      "Payables Management",
+      "Receivables Management",
+      "Treasury Automation"
+    ]
+  }
+]
+

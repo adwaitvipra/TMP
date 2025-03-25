@@ -1,0 +1,181 @@
+[
+  {
+    "category": "Accounts & Deposits",
+    "products": [
+      "Basic Savings Accounts",
+      "Checking Accounts",
+      "Certificate of Deposits (CDs)",
+      "Children’s Savings Accounts",
+      "College Savings Accounts (529 Plans)",
+      "Current Accounts",
+      "Fixed Deposits",
+      "Foreign Currency Accounts",
+      "High-Yield Savings Accounts",
+      "Individual Retirement Accounts (IRAs)",
+      "Joint Accounts",
+      "Money Market Accounts",
+      "Offshore Bank Accounts",
+      "Payroll Deposit Accounts",
+      "Trust Accounts"
+    ]
+  },
+  {
+    "category": "Cards & Payment Products",
+    "products": [
+      "Balance Transfer Credit Cards",
+      "Business Credit Cards for Individuals",
+      "Cashback Credit Cards",
+      "Co-Branded Credit Cards",
+      "Contactless Debit Cards",
+      "Corporate Employee Prepaid Cards",
+      "Debit Cards",
+      "Gas Rewards Credit Cards",
+      "Metal Credit Cards",
+      "No-Annual-Fee Credit Cards",
+      "Prepaid Travel Cards",
+      "Secured Credit Cards",
+      "Student Credit Cards",
+      "Ultra-Premium Credit Cards",
+      "Virtual Credit & Debit Cards"
+    ]
+  },
+  {
+    "category": "Consumer Loans & Credit",
+    "products": [
+      "Auto Loans",
+      "Boat Loans",
+      "Bridge Loans",
+      "Buy Now, Pay Later (BNPL) Plans",
+      "Debt Consolidation Loans",
+      "Education Loans",
+      "Fixed-Rate Personal Loans",
+      "Green Energy Loans",
+      "HELOC (Home Equity Line of Credit)",
+      "Home Improvement Loans",
+      "Interest-Only Mortgages",
+      "Jumbo Mortgages",
+      "Medical Expense Loans",
+      "Motorcycle Loans",
+      "Personal Lines of Credit",
+      "Reverse Mortgages",
+      "Secured Personal Loans",
+      "Signature Loans",
+      "Small Business Loans for Individuals",
+      "Student Loans",
+      "Timeshare Loans",
+      "Unsecured Personal Loans",
+      "Vacation Loans",
+      "Wedding Loans"
+    ]
+  },
+  {
+    "category": "Foreign Exchange & Investment Products",
+    "products": [
+      "ADR (American Depositary Receipts)",
+      "Brokerage Accounts",
+      "Commodity Investment Accounts",
+      "Cryptocurrency Investment Accounts",
+      "Direct Stock Purchase Plans",
+      "ESG & Impact Investing Portfolios",
+      "Exchange-Traded Funds (ETFs)",
+      "Foreign Exchange Trading Accounts",
+      "Forex Prepaid Cards",
+      "Gold & Silver Investment Accounts",
+      "Government Bonds",
+      "Hedge Fund Investment Accounts",
+      "Index Funds",
+      "Mutual Funds",
+      "Private Equity Investment Accounts",
+      "Real Estate Investment Trusts (REITs)",
+      "Robo-Advisor Portfolios",
+      "Self-Directed Investment Accounts",
+      "Stock & Options Trading Accounts",
+      "Tax-Advantaged Investment Accounts",
+      "Treasury Bonds"
+    ]
+  },
+  {
+    "category": "Insurance & Protection Products",
+    "products": [
+      "Accidental Death Insurance",
+      "Auto Insurance Policies",
+      "Burial Insurance",
+      "Critical Illness Insurance",
+      "Cybersecurity Insurance",
+      "Disability Income Insurance",
+      "Extended Warranty Insurance",
+      "Family Health Insurance Plans",
+      "Gap Insurance",
+      "Homeowners Insurance",
+      "Identity Theft Protection Plans",
+      "Indexed Universal Life Insurance",
+      "Long-Term Care Insurance",
+      "Mortgage Protection Insurance",
+      "Personal Liability Umbrella Policies",
+      "Pet Insurance",
+      "Renters Insurance",
+      "Term Life Insurance",
+      "Travel Medical Insurance",
+      "Universal Life Insurance",
+      "Variable Life Insurance",
+      "Whole Life Insurance"
+    ]
+  },
+  {
+    "category": "Retirement & Pension Products",
+    "products": [
+      "401(k) Plans",
+      "403(b) Plans",
+      "Annuities (Fixed & Variable)",
+      "Defined Benefit Pension Plans",
+      "Deferred Compensation Plans",
+      "Government Employee Pension Plans",
+      "Guaranteed Income Annuities",
+      "Health Savings Accounts (HSA)",
+      "Individual 401(k) Plans",
+      "Roth IRA Accounts",
+      "SEP IRA Accounts",
+      "Simple IRA Accounts",
+      "Self-Employed Pension Plans",
+      "Social Security Benefit Planning",
+      "Target Date Retirement Funds",
+      "Traditional IRA Accounts"
+    ]
+  },
+  {
+    "category": "Security & Fraud Protection Products",
+    "products": [
+      "Anti-Phishing Protection Software",
+      "Automated Fraud Monitoring",
+      "Bank Account Freezing Tools",
+      "Card Fraud Protection Plans",
+      "Credit Lock & Freeze Services",
+      "Cybersecurity Breach Alerts",
+      "Dark Web Monitoring Services",
+      "EMV Chip-Enabled Cards",
+      "Identity Theft Insurance",
+      "Purchase Protection for Credit Cards",
+      "Secure Biometric Authentication",
+      "Transaction Alerts & Controls",
+      "Two-Factor Authentication (2FA)",
+      "Zero Liability Protection Plans"
+    ]
+  },
+  {
+    "category": "Tax-Advantaged & Specialized Investment Products",
+    "products": [
+      "529 College Savings Plans",
+      "Capital Gains Tax Deferral Accounts",
+      "Charitable Remainder Trusts",
+      "Donor-Advised Funds",
+      "Employer Stock Ownership Plans (ESOPs)",
+      "Estate Tax Reduction Accounts",
+      "Health Reimbursement Arrangements (HRA)",
+      "Municipal Bonds",
+      "Rollover IRAs",
+      "Tax-Free Municipal Bonds",
+      "Wealth Transfer Trusts"
+    ]
+  }
+]
+

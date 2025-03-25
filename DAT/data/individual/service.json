@@ -1,0 +1,161 @@
+[
+  {
+    "category": "Bank Accounts",
+    "services": [
+      "Checking Accounts",
+      "Foreign Currency Accounts",
+      "High-Yield Savings Accounts",
+      "Joint Accounts",
+      "Money Market Accounts",
+      "Offshore Accounts",
+      "Student Accounts",
+      "Trust Accounts"
+    ]
+  },
+  {
+    "category": "Credit & Lending",
+    "services": [
+      "Auto Loans",
+      "Buy Now, Pay Later (BNPL)",
+      "Credit Builder Loans",
+      "Credit Cards",
+      "Debt Consolidation Loans",
+      "HELOC (Home Equity Line of Credit)",
+      "Home Improvement Loans",
+      "Mortgage Loans",
+      "Overdraft Protection",
+      "Personal Lines of Credit",
+      "Personal Loans",
+      "Refinancing Services",
+      "Reverse Mortgages",
+      "Secured Loans",
+      "Student Loans"
+    ]
+  },
+  {
+    "category": "Digital Banking & Payments",
+    "services": [
+      "AI-Based Financial Insights",
+      "Automated Bill Payments",
+      "Biometric Authentication",
+      "Blockchain Payments",
+      "Contactless Payments",
+      "Digital Wallets",
+      "Instant Transfers",
+      "Mobile Banking Apps",
+      "Online Banking",
+      "P2P (Peer-to-Peer) Payments",
+      "QR Code Payments",
+      "Subscription Management",
+      "Virtual Debit & Credit Cards"
+    ]
+  },
+  {
+    "category": "Foreign Exchange & Remittances",
+    "services": [
+      "Currency Exchange",
+      "Foreign Currency Fixed Deposits",
+      "Forex Trading",
+      "International Money Transfers",
+      "Multi-Currency Accounts",
+      "Overseas Bill Payments",
+      "Prepaid Forex Cards",
+      "Remittance Services",
+      "Wire Transfers"
+    ]
+  },
+  {
+    "category": "Insurance & Protection",
+    "services": [
+      "Accident Insurance",
+      "Auto Insurance",
+      "Critical Illness Insurance",
+      "Cyber Insurance",
+      "Disability Insurance",
+      "Health Insurance",
+      "Homeowners Insurance",
+      "Life Insurance",
+      "Personal Liability Insurance",
+      "Renters Insurance",
+      "Term Life Insurance",
+      "Travel Insurance",
+      "Unemployment Insurance",
+      "Whole Life Insurance"
+    ]
+  },
+  {
+    "category": "Investment & Wealth Management",
+    "services": [
+      "401(k) & IRA Accounts",
+      "Alternative Investments",
+      "Annuities",
+      "Brokerage Accounts",
+      "Cryptocurrency Trading",
+      "Estate Planning",
+      "ESG Investing",
+      "Financial Advisory Services",
+      "Hedge Fund Access",
+      "Index Funds",
+      "Managed Portfolios",
+      "Mutual Funds",
+      "Private Banking",
+      "Robo-Advisors",
+      "Stock & ETF Trading",
+      "Tax-Advantaged Accounts",
+      "Trust & Estate Services"
+    ]
+  },
+  {
+    "category": "Retirement & Pension",
+    "services": [
+      "Annuities",
+      "Employer-Sponsored Retirement Plans",
+      "IRA Accounts",
+      "Pension Plans",
+      "Retirement Income Planning",
+      "Self-Employed Retirement Plans",
+      "Social Security Planning"
+    ]
+  },
+  {
+    "category": "Security & Fraud Protection",
+    "services": [
+      "Anti-Phishing Protection",
+      "Card Freezing & Unfreezing",
+      "Credit Monitoring",
+      "Cybersecurity Alerts",
+      "Dark Web Monitoring",
+      "Fraud Alerts",
+      "Identity Theft Protection",
+      "Purchase Protection",
+      "Two-Factor Authentication",
+      "Zero Liability Protection"
+    ]
+  },
+  {
+    "category": "Specialized Banking Services",
+    "services": [
+      "Banking for Expats",
+      "Family Banking",
+      "High-Net-Worth Banking",
+      "LGBTQ+ Banking Services",
+      "Military Banking",
+      "Senior Citizen Banking",
+      "Student Banking",
+      "Wealth Transfer & Legacy Planning",
+      "Women’s Banking Services"
+    ]
+  },
+  {
+    "category": "Tax Services",
+    "services": [
+      "Capital Gains Tax Advisory",
+      "Estate Tax Planning",
+      "Income Tax Filing Assistance",
+      "Offshore Tax Planning",
+      "Property Tax Advisory",
+      "Retirement Tax Optimization",
+      "Tax-Deferred Investment Planning"
+    ]
+  }
+]

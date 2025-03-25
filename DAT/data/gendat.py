@@ -1,0 +1,295 @@
+#!/bin/python
+
+import json
+import pickle
+from random import sample
+from random import randint
+from faker import Faker as fk
+
+climit = 1000000
+txnlimit = 1000000
+ctype = ("ADM", "ORG", "IND")
+crange = {'ADM': tuple(range(1, 11)),
+          'ORG': tuple(range(11, 411)),
+          'IND': tuple(range(411, 100411))}
+
+fake = fk()
+
+loaddata = True
+if (loaddata):
+    fpadm = open("./admin.json", "r")
+    fporg = open("./organization/organization.json", "r")
+    fporgprf = open("./organization/preference.json", "r")
+    fporgreq = open("./organization/preference.json", "r")
+    fpname = open("./individual/name.json", "r")
+    fpeducation = open("./individual/education.json", "r")
+    fpoccupation = open("./individual/occupation.json", "r")
+    fpindprf = open("./individual/preference.json", "r")
+    fpindreq = open("./individual/requirement.json", "r")
+    fpcity = open("./individual/city.json", "r")
+    fpcountry = open("./individual/country.json", "r")
+    fptxnorg = open("./transaction/organization.json", "r")
+    fptxnind = open("./transaction/individual.json", "r")
+    fptxnmode = open("./transaction/mode.json", "r")
+
+if (fpadm and fporg):
+    admins = json.load(fpadm)
+    organizations = json.load(fporg)
+    fpadm.close()
+    fporg.close()
+else:
+    admins = {}
+    organizations = {}
+
+if (fporgprf and fporgreq):
+    orgprfs = json.load(fporgprf)
+    orgreqs = json.load(fporgreq)
+    fporgprf.close()
+    fporgreq.close()
+else:
+    orgprfs = {}
+    orgreqs = {}
+
+if (fpname and fpeducation and fpoccupation and fpindprf
+                                and fpindreq and fpcity and fpcountry):
+    names = json.load(fpname)
+    educations = json.load(fpeducation)
+    occupations = json.load(fpoccupation)
+    cities = json.load(fpcity)
+    countries = json.load(fpcountry)
+    indprfs = json.load(fpindprf)
+    indreqs = json.load(fpindreq)
+else:
+    names = {}
+    locations = {}
+    educations = {}
+    occupations = {}
+    cities = {}
+    countries = {}
+    indprfs = {}
+    indreqs = {}
+
+if (fptxnorg and fptxnorg and fptxnmode):
+    txnorg = json.load(fptxnorg)
+    txnind = json.load(fptxnind)
+    txnmode = json.load(fptxnmode)
+else:
+    txnorg = {}
+    txnind = {}
+    txnmode = {}
+
+fhindprfs = open("indprfs.dat", "wb")
+fhindreqs = open("indreqs.dat", "wb")
+fhorgprfs = open("orgprfs.dat", "wb")
+fhorgreqs = open("orgreqs.dat", "wb")
+
+fhtxnorg = open("txnorg.dat", "wb")
+fhtxnind = open("txnind.dat", "wb")
+fhtxnmode = open("txnmode.dat", "wb")
+
+pickle.dump(indprfs, fhindprfs)
+pickle.dump(indreqs, fhindreqs)
+pickle.dump(orgprfs, fhorgprfs)
+pickle.dump(orgreqs, fhorgreqs)
+print("\n@indprfs:\n", indprfs)
+print("\n@indreqs:\n", indreqs)
+print("\n@orgprfs:\n", orgprfs)
+print("\n@orgreqs:\n", orgprfs)
+
+pickle.dump(txnorg, fhtxnorg)
+pickle.dump(txnind, fhtxnind)
+pickle.dump(txnmode, fhtxnmode)
+print("\n@txnorg:\n", txnorg)
+print("\n@txnind:\n", txnind)
+print("\n@txnmode:\n", txnmode)
+
+fhindprfs.close()
+fhindreqs.close()
+fhorgprfs.close()
+fhorgreqs.close()
+
+fhtxnorg.close()
+fhtxnind.close()
+fhtxnmode.close()
+
+def populate_admins(admins = admins, climit = climit,
+                    ctype = ctype[0], crange = crange, filename = "admin.dat"):
+
+    features = ("CID", "NAME", "GENDER", "DOB", "ROLE")
+    fill = len(str(climit))
+    fh = open(filename, "wb")
+
+    dct = {}
+    if (fh):
+        itr = 0
+        for uid in crange[ctype]:
+            admin = admins[itr]
+
+            cid = ctype + str(uid).zfill(fill)
+            admin[features[0]] = cid
+
+            dct[cid] = admin
+
+            itr += 1
+
+        print("\n@admins:\n", dct[cid])
+        pickle.dump(dct, fh)
+        fh.close()
+
+def generate_customers(climit = climit, crange = crange,
+                       filename = "customer.dat"):
+
+    features = ("CID", "TYPE")
+    custtype = {"ORG": "ORGANIZATION", "IND": "INDIVIDUAL"}
+
+    fill = len(str(climit))
+    fh = open(filename, "wb")
+
+    if (fh):
+        dct = {}
+        crange.pop("ADM")
+        for ctype in crange:
+            for uid in crange[ctype]:
+                cid = ctype + str(uid).zfill(fill)
+                customer = {'CID': cid, 'TYPE': custtype[ctype]}
+
+                dct[cid] = customer
+
+        print("\n@customer:\n", dct[cid])
+        pickle.dump(dct, fh)
+        fh.close()
+
+
+def generate_clients(climit = climit, crange = crange, filename = "client.dat"):
+
+    features = ("CID", "PWD")
+    fill = len(str(climit))
+    fh = open(filename, "wb")
+
+    if (fh):
+        dct = {}
+        for ctype in crange:
+            for uid in crange[ctype]:
+                cid = ctype + str(uid).zfill(fill)
+                pwd = cid
+                client = {'CID': cid, 'PWD': pwd}
+
+                dct[cid] = client
+        
+        print("\n@client:\n", dct[cid])
+        pickle.dump(dct, fh)
+        fh.close()
+
+def populate_organizations(organizations = organizations, climit = climit,
+                           ctype = ctype[1], crange = crange,
+                           requirements = orgreqs, preferences = orgprfs,
+                           filename = "organization.dat"):
+
+    features = ("CID", "NAME", "COUNTRY", "INDUSTRY", "SECTOR",
+                                        "REQUIREMENTS", "PREFERENCES")
+    fill = len(str(climit))
+    fh = open(filename, "wb")
+
+    if (fh):
+        dct = {}
+
+        itr = 0
+        for uid in crange[ctype]:
+            org = organizations[itr]
+
+            cid = ctype + str(uid).zfill(fill)
+            org[features[0]] = cid
+            org[features[5]] = str.join(', ', sample(orgprfs[org["SECTOR"]], 3))
+            org[features[6]] = str.join(', ', sample(orgreqs[org["SECTOR"]], 3))
+
+            dct[cid] = org
+
+            itr = (itr + 1) % len(organizations)
+
+        print("\n@organization:\n", dct[cid])
+        pickle.dump(dct, fh)
+        fh.close()
+
+def populate_individuals(names = names, climit = climit, ctype = ctype[2],
+                         crange = crange, cities = cities,
+                         countries = countries, educations = educations,
+                         occupations = occupations, requirements = indreqs,
+                         prefereces = indprfs, filename = "individual.dat"):
+
+    features = ("CID", "NAME", "GENDER", "DOB", "CITY", "COUNTRY", "EDUCATION",
+                             "OCCUPATION", "REQUIREMENTS", "PREFERENCES")
+    fill = len(str(climit))
+    fh = open(filename, "wb")
+
+    if (fh):
+        dct = {}
+
+        flag = False
+        find = names["F"]
+        mind = names["M"]
+
+        ind = {}
+        for uid in crange[ctype]:
+            cid = ctype + str(uid).zfill(fill)
+            ind[features[0]] = cid
+            flag != flag
+            if (flag):
+                ind[features[1]] = sample(find, k = 1)[0]
+                ind[features[2]] = "F"
+            else:
+                ind[features[1]] = sample(mind, k = 1)[0]
+                ind[features[2]] = "M"
+
+            ind[features[3]] = fake.date_of_birth(None, 18, 80)
+            ind[features[4]] = sample(cities, k = 1)[0]
+            ind[features[5]] = sample(countries, k = 1)[0]
+            ind[features[6]] = sample(educations, k = 1)[0]
+            ind[features[7]] = sample(occupations, k = 1)[0]
+            ind[features[8]] = str.join(", ", sample(requirements, k = 3))
+            ind[features[9]] = str.join(", ", sample(prefereces, k = 3))
+
+            dct[cid] = ind
+
+        print("\n@individual:\n", dct[cid])
+        pickle.dump(dct, fh)
+        fh.close()
+
+def populate_transactions(climit = climit, ctype = ctype, crange = crange,
+                          organization = txnorg, individual = txnind,
+                          mode = txnmode, filename = "transaction.dat"):
+
+    features = ("CID", "TYPE", "AMOUNT", "MODE", "DATE")
+    fill = len(str(climit))
+    fh = open(filename, "wb")
+
+    if (fh):
+        dct = {}
+
+        txn = {}
+        for uid in crange[ctype[1]]:
+            cid = ctype[1] + str(uid).zfill(fill)
+            dct[cid] = []
+            for i in range(5):
+                txn[features[0]] = cid
+                txn[features[1]] = sample(txnorg, k = 1)[0]
+                txn[features[2]] = randint(1000000, 100000000000000)
+                txn[features[3]] = sample(txnmode, k = 1)[0]
+                txn[features[4]] = fake.date_this_decade()
+
+                dct[cid].append(txn.copy())
+
+        for uid in crange[ctype[2]]:
+            cid = ctype[1] + str(uid).zfill(fill)
+            dct[cid] = []
+            for i in range(3):
+                txn[features[0]] = ctype[2] + str(uid).zfill(fill)
+                txn[features[1]] = sample(txnind, k = 1)[0]
+                txn[features[2]] = randint(1, 1000000)
+                txn[features[3]] = sample(txnmode, k = 1)[0]
+                txn[features[4]] = fake.date_this_decade()
+
+                dct[cid].append(txn.copy())
+        
+        print("\n@transaction:\n", dct[cid])
+        pickle.dump(dct, fh)
+        fh.close()

@@ -1,0 +1,137 @@
+[
+  {
+    "category": "Accounts & Deposits",
+    "products": [
+      "Business Checking Accounts",
+      "Business Savings Accounts",
+      "Certificate of Deposits (CDs)",
+      "Commercial Escrow Accounts",
+      "Corporate Fixed Deposits",
+      "Foreign Currency Accounts",
+      "Merchant Accounts",
+      "Money Market Accounts",
+      "Multi-Currency Accounts",
+      "Sweep Accounts",
+      "Virtual Accounts"
+    ]
+  },
+  {
+    "category": "Cards & Payment Solutions",
+    "products": [
+      "Business Debit Cards",
+      "Business Credit Cards",
+      "Commercial Fleet Cards",
+      "Corporate Charge Cards",
+      "Corporate Prepaid Cards",
+      "Expense Management Cards",
+      "Procurement Cards (P-Cards)",
+      "Virtual Corporate Cards"
+    ]
+  },
+  {
+    "category": "Commercial Lending",
+    "products": [
+      "Asset-Based Loans",
+      "Bridge Loans",
+      "Commercial Construction Loans",
+      "Commercial Equipment Loans",
+      "Commercial Mortgage Loans",
+      "Inventory Financing",
+      "Lease Financing",
+      "Lines of Credit",
+      "Mezzanine Financing",
+      "Project Finance Loans",
+      "Receivables Financing",
+      "Syndicated Loans",
+      "Term Loans",
+      "Trade Credit Facilities",
+      "Venture Debt"
+    ]
+  },
+  {
+    "category": "Capital Markets & Investment Products",
+    "products": [
+      "Asset-Backed Securities (ABS)",
+      "Bond Issuance",
+      "Commercial Paper",
+      "Convertible Bonds",
+      "Corporate Bonds",
+      "Debt Private Placements",
+      "Equity Private Placements",
+      "Exchange-Traded Funds (ETFs)",
+      "Hedge Fund Solutions",
+      "Initial Public Offering (IPO) Stocks",
+      "Money Market Funds",
+      "Private Equity Funds",
+      "Securitization Products",
+      "Structured Notes",
+      "Treasury Bills (T-Bills)"
+    ]
+  },
+  {
+    "category": "Foreign Exchange & Derivatives",
+    "products": [
+      "Commodity Futures",
+      "Commodity Options",
+      "Cross-Currency Swaps",
+      "Currency Forwards",
+      "FX Hedging Products",
+      "FX Options",
+      "Interest Rate Caps & Floors",
+      "Interest Rate Swaps",
+      "Non-Deliverable Forwards (NDFs)",
+      "Structured FX Products",
+      "Swap Agreements"
+    ]
+  },
+  {
+    "category": "Insurance & Risk Management",
+    "products": [
+      "Business Interruption Insurance",
+      "Cargo & Marine Insurance",
+      "Commercial Property Insurance",
+      "Corporate Cyber Insurance",
+      "Credit Risk Insurance",
+      "Directors & Officers (D&O) Insurance",
+      "Key Person Insurance",
+      "Liability Insurance",
+      "Political Risk Insurance",
+      "Supply Chain Disruption Insurance",
+      "Trade Credit Insurance"
+    ]
+  },
+  {
+    "category": "Treasury & Cash Management Products",
+    "products": [
+      "Automated Clearing House (ACH) Payments",
+      "Cash Concentration Services",
+      "Controlled Disbursement Accounts",
+      "Deposit Reconciliation Solutions",
+      "Liquidity Management Tools",
+      "Lockbox Services",
+      "Notional Pooling",
+      "Payables Automation Solutions",
+      "Receivables Factoring",
+      "Short-Term Investment Products",
+      "Supply Chain Finance Platforms",
+      "Zero Balance Accounts (ZBA)"
+    ]
+  },
+  {
+    "category": "Trade Finance & Supply Chain Products",
+    "products": [
+      "Bank Guarantees",
+      "Commercial Letters of Credit",
+      "Documentary Collections",
+      "Export Credit Facilities",
+      "Import Credit Lines",
+      "Inventory Finance Solutions",
+      "Invoice Discounting",
+      "Reverse Factoring",
+      "Standby Letters of Credit",
+      "Supplier Financing Programs",
+      "Warehouse Financing"
+    ]
+  }
+]
+

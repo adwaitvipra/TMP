@@ -1,6 +1,6 @@
 #!/bin/python
 
-from generate import *
+from gendat import *
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 # CLIENT (CID, PWD)

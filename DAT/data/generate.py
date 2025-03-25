@@ -1,6 +1,7 @@
 import csv
 import json
 from random import sample
+from random import randint
 from faker import Faker as fk
 
 climit = 1000000
@@ -47,7 +48,8 @@ else:
     orgprfs = {}
     orgreqs = {}
 
-if (fpname and fpeducation and fpoccupation and fpindprf and fpindreq and fpcity and fpcountry):
+if (fpname and fpeducation and fpoccupation and fpindprf
+                                and fpindreq and fpcity and fpcountry):
     names = json.load(fpname)
     educations = json.load(fpeducation)
     occupations = json.load(fpoccupation)
@@ -74,46 +76,9 @@ else:
     txnind = {}
     txnmode = {}
 
-def generate_customers(climit = climit, crange = crange, filename = "customer.json"):
-    features = ("CID", "TYPE")
-    custtype = {"ORG": "ORGANIZATION", "IND": "INDIVIDUAL"}
+def populate_admins(admins = admins, climit = climit,
+                    ctype = ctype[0], crange = crange, filename = "admin.csv"):
 
-    fill = len(str(climit))
-    fh = open(filename, "w")
-
-    if (fh):
-        writer = csv.DictWriter(fh, features, delimiter = ';')
-        writer.writeheader()
-
-        crange.pop("ADM")
-        for ctype in crange:
-            for uid in crange[ctype]:
-                cid = ctype + str(uid).zfill(fill)
-                customer = {'CID': cid, 'TYPE': custtype[ctype]}
-                writer.writerow(customer)      
-
-        fh.close()
-
-
-def generate_clients(climit, crange, filename = "client.csv"):
-    features = ("CID", "PWD")
-    fill = len(str(climit))
-    fh = open(filename, "w")
-
-    if (fh):
-        writer = csv.DictWriter(fh, features, delimiter = ';')
-        writer.writeheader()
-
-        for ctype in crange:
-            for uid in crange[ctype]:
-                cid = ctype + str(uid).zfill(fill)
-                pwd = cid
-                client = {'CID': cid, 'PWD': pwd}
-                writer.writerow(client)
-
-        fh.close()
-
-def populate_admins(admins, climit, ctype, crange, filename = "admin.csv"):
     features = ("CID", "NAME", "GENDER", "DOB", "ROLE")
     fill = len(str(climit))
     fh = open(filename, "w")
@@ -134,8 +99,78 @@ def populate_admins(admins, climit, ctype, crange, filename = "admin.csv"):
 
         fh.close()
 
-def populate_organizations(organizations, climit, ctype, crange, requirements = orgreqs, preferences = orgprfs, filename = "organization.csv"):
-    features = ("CID", "NAME", "COUNTRY", "INDUSTRY", "SECTOR", "REQUIREMENTS", "PREFERENCES")
+def populate_admins(admins = admins, climit = climit,
+                    ctype = ctype[0], crange = crange, filename = "admin.csv"):
+
+    features = ("CID", "NAME", "GENDER", "DOB", "ROLE")
+    fill = len(str(climit))
+    fh = open(filename, "w")
+
+    if (fh):
+        writer = csv.DictWriter(fh, features, delimiter = ";")
+        writer.writeheader()
+
+        itr = 0
+        for uid in crange[ctype]:
+            admin = admins[itr]
+
+            cid = ctype + str(uid).zfill(fill)
+            admin[features[0]] = cid
+            writer.writerow(admin)
+
+            itr += 1
+
+        fh.close()
+
+def generate_customers(climit = climit, crange = crange,
+                       filename = "customer.csv"):
+
+    features = ("CID", "TYPE")
+    custtype = {"ORG": "ORGANIZATION", "IND": "INDIVIDUAL"}
+
+    fill = len(str(climit))
+    fh = open(filename, "w")
+
+    if (fh):
+        writer = csv.DictWriter(fh, features, delimiter = ';')
+        writer.writeheader()
+
+        crange.pop("ADM")
+        for ctype in crange:
+            for uid in crange[ctype]:
+                cid = ctype + str(uid).zfill(fill)
+                customer = {'CID': cid, 'TYPE': custtype[ctype]}
+                writer.writerow(customer)      
+
+        fh.close()
+
+
+def generate_clients(climit = climit, crange = crange, filename = "client.csv"):
+
+    features = ("CID", "PWD")
+    fill = len(str(climit))
+    fh = open(filename, "w")
+
+    if (fh):
+        writer = csv.DictWriter(fh, features, delimiter = ';')
+        writer.writeheader()
+
+        for ctype in crange:
+            for uid in crange[ctype]:
+                cid = ctype + str(uid).zfill(fill)
+                pwd = cid
+                client = {'CID': cid, 'PWD': pwd}
+                writer.writerow(client)
+
+        fh.close()
+
+def populate_organizations(organizations = organizations, climit = climit,
+                           ctype = ctype[1], crange = crange,
+                           requirements = orgreqs, preferences = orgprfs,
+                           filename = "organization.csv"):
+
+    features = ("CID", "NAME", "COUNTRY", "INDUSTRY", "SECTOR",
+                                        "REQUIREMENTS", "PREFERENCES")
     fill = len(str(climit))
     fh = open(filename, "w")
 
@@ -158,8 +193,14 @@ def populate_organizations(organizations, climit, ctype, crange, requirements = 
 
         fh.close()
 
-def populate_individuals(names, climit, ctype, crange, cities = cities, countries = countries, educations = educations, occupations = occupations, requirements = indreqs, prefereces = indprfs, filename = "individual.csv"):
-    features = ("CID", "NAME", "GENDER", "DOB", "CITY", "COUNTRY", "EDUCATION", "OCCUPATION", "REQUIREMENTS", "PREFERENCES")
+def populate_individuals(names = names, climit = climit, ctype = ctype[2],
+                         crange = crange, cities = cities,
+                         countries = countries, educations = educations,
+                         occupations = occupations, requirements = indreqs,
+                         prefereces = indprfs, filename = "individual.csv"):
+
+    features = ("CID", "NAME", "GENDER", "DOB", "CITY", "COUNTRY", "EDUCATION",
+                             "OCCUPATION", "REQUIREMENTS", "PREFERENCES")
     fill = len(str(climit))
     fh = open(filename, "w")
 
@@ -195,12 +236,37 @@ def populate_individuals(names, climit, ctype, crange, cities = cities, countrie
 
         fh.close()
 
-def populate_transactions(txnlimit, crange = crange, organization = txnorg, individual = txnind, mode = txnmode, filename = "transaction.json"):
+def populate_transactions(climit = climit, ctype = ctype, crange = crange,
+                          organization = txnorg, individual = txnind,
+                          mode = txnmode, filename = "transaction.csv"):
+
     features = ("CID", "TYPE", "AMOUNT", "MODE", "DATE")
+    fill = len(str(climit))
     fh = open(filename, "w")
 
     if (fh):
         writer = csv.DictWriter(fh, features, delimiter = ";")
         writer.writeheader()
+
+        txn = {}
+        for uid in crange[ctype[1]]:
+            for i in range(5):
+                txn[features[0]] = ctype[1] + str(uid).zfill(fill)
+                txn[features[1]] = sample(txnorg, k = 1)[0]
+                txn[features[2]] = randint(1000000, 100000000000000)
+                txn[features[3]] = sample(txnmode, k = 1)[0]
+                txn[features[4]] = fake.date_this_decade()
+
+                writer.writerow(txn)
+
+        for uid in crange[ctype[2]]:
+            for i in range(3):
+                txn[features[0]] = ctype[2] + str(uid).zfill(fill)
+                txn[features[1]] = sample(txnind, k = 1)[0]
+                txn[features[2]] = randint(1, 1000000)
+                txn[features[3]] = sample(txnmode, k = 1)[0]
+                txn[features[4]] = fake.date_this_decade()
+
+                writer.writerow(txn)
 
         fh.close()
